@@ -9,9 +9,37 @@
     <managingEditor>karthik.0703@gmail.com (Kaarthik)</managingEditor>
     <webMaster>karthik.0703@gmail.com (Kaarthik)</webMaster>
     <copyright>© Copyright 2017</copyright>
+    <lastBuildDate>Thu, 15 Jun 2017 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://karthikraobr.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Firstpost</title>
+      <link>https://karthikraobr.github.io/tags/firstpost/</link>
+      <pubDate>Thu, 15 Jun 2017 00:00:00 +0000</pubDate>
+      <author>karthik.0703@gmail.com (Kaarthik)</author>
+      <guid>https://karthikraobr.github.io/tags/firstpost/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Life</title>
+      <link>https://karthikraobr.github.io/tags/life/</link>
+      <pubDate>Mon, 21 Aug 2017 00:00:00 +0000</pubDate>
+      <author>karthik.0703@gmail.com (Kaarthik)</author>
+      <guid>https://karthikraobr.github.io/tags/life/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Procrastination</title>
+      <link>https://karthikraobr.github.io/tags/procrastination/</link>
+      <pubDate>Mon, 21 Aug 2017 00:00:00 +0000</pubDate>
+      <author>karthik.0703@gmail.com (Kaarthik)</author>
+      <guid>https://karthikraobr.github.io/tags/procrastination/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>
