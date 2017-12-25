@@ -9,10 +9,20 @@
     <managingEditor>karthik.0703@gmail.com (Kaarthik)</managingEditor>
     <webMaster>karthik.0703@gmail.com (Kaarthik)</webMaster>
     <copyright>© Copyright 2017</copyright>
-    <lastBuildDate>Mon, 21 Aug 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 25 Dec 2017 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://karthikraobr.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Why I love Go</title>
+      <link>https://karthikraobr.github.io/post/whyilovego/</link>
+      <pubDate>Mon, 25 Dec 2017 00:00:00 +0000</pubDate>
+      <author>karthik.0703@gmail.com (Kaarthik)</author>
+      <guid>https://karthikraobr.github.io/post/whyilovego/</guid>
+      <description>I was introduced to Go by Bjoern as a part of my student job and I have been smitten by it ever since. Here are a few reason&amp;rsquo;s why I love go, in no particular order :
+Fast Compilation Most popular languages are atleast a decade old and do not take advantage of the newer hardware. But, Go on the other hand is designed to run on modern computers and take advantages of the faster hardware.</description>
+    </item>
     
     <item>
       <title>The art of procrastination</title>
