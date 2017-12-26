@@ -9,10 +9,22 @@
     <managingEditor>karthik.0703@gmail.com (Kaarthik)</managingEditor>
     <webMaster>karthik.0703@gmail.com (Kaarthik)</webMaster>
     <copyright>© Copyright 2017</copyright>
-    <lastBuildDate>Mon, 25 Dec 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 26 Dec 2017 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://karthikraobr.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Why I hate Go</title>
+      <link>https://karthikraobr.github.io/post/whyihatego/</link>
+      <pubDate>Tue, 26 Dec 2017 00:00:00 +0000</pubDate>
+      <author>karthik.0703@gmail.com (Kaarthik)</author>
+      <guid>https://karthikraobr.github.io/post/whyihatego/</guid>
+      <description>Here are a few reasons why I hate Go:
+Syntax In my previous post I raved about how Go has a clean syntax, but here are a few reaons why I hate it :
+ Anything that starts with a uppercase is exported i.e. it is accessible from outside a package. Names starting with a lowercase are not exported.
+ No built-in enum support. As a developer with some background in C# I miss enums.</description>
+    </item>
     
     <item>
       <title>Why I love Go</title>

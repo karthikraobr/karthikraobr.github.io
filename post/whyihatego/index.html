@@ -5,9 +5,20 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 
-  <title>Tags</title>
-  <meta property="og:title" content="Tags" />
-  <meta name="twitter:title" content="Tags" />
+  <title>Why I hate Go</title>
+  <meta property="og:title" content="Why I hate Go" />
+  <meta name="twitter:title" content="Why I hate Go" />
+  <meta name="description" content="Here are a few reasons why I hate Go:
+Syntax In my previous post I raved about how Go has a clean syntax, but here are a few reaons why I hate it :
+ Anything that starts with a uppercase is exported i.e. it is accessible from outside a package. Names starting with a lowercase are not exported.
+ No built-in enum support. As a developer with some background in C# I miss enums.">
+  <meta property="og:description" content="Here are a few reasons why I hate Go:
+Syntax In my previous post I raved about how Go has a clean syntax, but here are a few reaons why I hate it :
+ Anything that starts with a uppercase is exported i.e. it is accessible from outside a package. Names starting with a lowercase are not exported.
+ No built-in enum support. As a developer with some background in C# I miss enums.">
+  <meta name="twitter:description" content="Here are a few reasons why I hate Go:
+Syntax In my previous post I raved about how Go has a clean syntax, but here are a few reaons why I hate it :
+ Anything that starts with a uppercase is exported …">
   <meta name="author" content="Kaarthik"/>
   <link href='https://karthikraobr.github.io/img/favicon.ico' rel='icon' type='image/x-icon'/>
   <meta property="og:image" content="https://karthikraobr.github.io/img/profile.jpg" />
@@ -15,12 +26,12 @@
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:site" content="@karthikraobr" />
   <meta name="twitter:creator" content="@karthikraobr" />
-  <meta property="og:url" content="https://karthikraobr.github.io/tags/" />
+  <meta property="og:url" content="https://karthikraobr.github.io/post/whyihatego/" />
   <meta property="og:type" content="website" />
   <meta property="og:site_name" content="Gibberish" />
 
   <meta name="generator" content="Hugo 0.31.1" />
-  <link rel="canonical" href="https://karthikraobr.github.io/tags/" />
+  <link rel="canonical" href="https://karthikraobr.github.io/post/whyihatego/" />
   <link rel="alternate" href="https://karthikraobr.github.io/index.xml" type="application/rss+xml" title="Gibberish">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.css" integrity="sha384-wITovz90syo1dJWVh32uuETPVEtGigN07tkttEqPv+uR2SE/mbQcG7ATL28aI9H0" crossorigin="anonymous">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
@@ -163,9 +174,16 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-            <div class="tags-heading">
-              <h1>Tags</h1>
+            <div class="post-heading">
+              <h1>Why I hate Go</h1>
                 
+                
+                  <span class="post-meta">
+  Posted on December 26, 2017
+  
+</span>
+
+
                 
             </div>
           </div>
@@ -176,32 +194,117 @@
 
 
     
-  
-  <div class="container" role="main">
-    <article class="post-preview">
-      <div class="list-group col-lg-4 col-lg-offset-4 col-md-6 col-md-offset-3">
+<div class="container" role="main">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+      <article role="main" class="blog-post">
+        
+
+<p>Here are a few reasons why I hate Go:</p>
+
+<h3 id="syntax">Syntax</h3>
+
+<hr />
+
+<p>In my previous post I raved about how Go has a clean syntax, but here are a few reaons why I hate it :</p>
+
+<ol>
+<li><p>Anything that starts with a uppercase is exported i.e. it is accessible from outside a package. Names starting with a lowercase are not exported.</p></li>
+
+<li><p>No built-in enum support. As a developer with some background in C# I miss enums. (By using <a href="https://golang.org/ref/spec#Iota" target="_blank">iota</a> you can achieve enum-like functionality in Go)</p></li>
+
+<li><p>I don&rsquo;t quite like the function signatures in Go.</p></li>
+</ol>
+
+<blockquote>
+<p>func funtionName(param1, param2..)(returnType1, returnType2..)</p>
+</blockquote>
+
+<h3 id="error-handling">Error Handling</h3>
+
+<hr />
+
+<p>I found the Error Handling in Go to be repetitive. If a function returns a result and an error, you are expected to check if the error is nil and then continue with you regular logic. And if the called function can return mutliple types of errors, then you would have to check for the type of the error in addition to checking if it is not nil.</p>
+
+<pre><code class="language-go">info, err := echoReq.GetSlotValue(screenMessage)
+if err != nil {
+    // Do error handling
+}else{
+    // regular logic
+}
+</code></pre>
+
+<h3 id="no-overloading-and-optional-parameters">No Overloading and Optional Parameters</h3>
+
+<hr />
+
+<p>Yet again coming from C#, I miss method overloading and optional parameters which in my opinion are quite useful.</p>
+
+<h3 id="the-else-problem">The &ldquo;else&rdquo; problem</h3>
+
+<hr />
+
+<p>This is just me being picky and dumb, but coming from C# I have the habbit of writing the else condition in a new line rather than in the same line as the closing brace of the if condition. This results in a syntax error which makes me sad :(. <a href="https://play.golang.org/p/1NWNCItGU7s" target="_blank">Test it yourself.</a></p>
+
+<pre><code class="language-go">package main
+
+import (
+    &quot;fmt&quot;
+)
+
+func main() {
+    a:=1
+    if(a==1){
+        fmt.Println(&quot;a is one&quot;)
+    }
+    //This results in syntax error.
+    else{
+        fmt.Println(&quot;a is not one&quot;)
+    }
+}
+</code></pre>
+
+      </article>
+
+      <ul class="pager blog-pager">
+        
+          <li class="previous">
+            <a href="https://karthikraobr.github.io/post/whyilovego/" data-toggle="tooltip" data-placement="top" title="Why I love Go">&larr; Previous Post</a>
+          </li>
+        
+        
+      </ul>
+
       
-      <a href="/tags/go" class="list-group-item">
-          go<span class="badge">2</span></a>
+        
+          <div class="disqus-comments">
+            <div id="disqus_thread"></div>
+<script>
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "https-karthikraobr-github-io" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+          </div>
+        
       
-      <a href="/tags/golang" class="list-group-item">
-          golang<span class="badge">2</span></a>
-      
-      <a href="/tags/tech" class="list-group-item">
-          tech<span class="badge">2</span></a>
-      
-      <a href="/tags/firstpost" class="list-group-item">
-          firstpost<span class="badge">1</span></a>
-      
-      <a href="/tags/life" class="list-group-item">
-          life<span class="badge">1</span></a>
-      
-      <a href="/tags/procrastination" class="list-group-item">
-          procrastination<span class="badge">1</span></a>
-      
-      </div>
-    </article>
+
+    </div>
   </div>
+</div>
 
     <footer>
   <div class="container">
