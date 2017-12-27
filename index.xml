@@ -15,25 +15,14 @@
     
     
     <item>
-      <title>Why I hate Go</title>
-      <link>https://karthikraobr.github.io/post/whyihatego/</link>
+      <title>My relationship with Go</title>
+      <link>https://karthikraobr.github.io/post/whyilovego/</link>
       <pubDate>Tue, 26 Dec 2017 00:00:00 +0000</pubDate>
       <author>karthik.0703@gmail.com (Kaarthik)</author>
-      <guid>https://karthikraobr.github.io/post/whyihatego/</guid>
-      <description>Here are a few reasons why I hate Go:
-Syntax In my previous post I raved about how Go has a clean syntax, but here are a few reaons why I hate it :
- Anything that starts with a uppercase is exported i.e. it is accessible from outside a package. Names starting with a lowercase are not exported.
- No built-in enum support. As a developer with some background in C# I miss enums.</description>
-    </item>
-    
-    <item>
-      <title>Why I love Go</title>
-      <link>https://karthikraobr.github.io/post/whyilovego/</link>
-      <pubDate>Mon, 25 Dec 2017 00:00:00 +0000</pubDate>
-      <author>karthik.0703@gmail.com (Kaarthik)</author>
       <guid>https://karthikraobr.github.io/post/whyilovego/</guid>
-      <description>I was introduced to Go by Bjoern as a part of my student job and I have been smitten by it ever since. Here are a few reason&amp;rsquo;s why I love go, in no particular order :
-Fast Compilation Most popular languages are atleast a decade old and do not take advantage of the newer hardware. But, Go on the other hand is designed to run on modern computers and takes advantages of the faster hardware.</description>
+      <description>I have a love-hate relationship (more love and less hate :P) with any new programming language I pick up. This post describes my relationship with Go.
+Why I love it I was introduced to Go by Bjoern as a part of my student job and I have been smitten by it ever since. Here are a few reason&amp;rsquo;s why I love go, in no particular order :
+Fast Compilation Most popular languages are atleast a decade old and do not take advantage of the newer hardware.</description>
     </item>
     
     <item>
