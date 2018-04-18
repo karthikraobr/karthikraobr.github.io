@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pages on Gibberish</title>
+    <link>https://karthikraobr.github.io/page/</link>
+    <description>Recent content in Pages on Gibberish</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>karthik.0703@gmail.com (Kaarthik)</managingEditor>
+    <webMaster>karthik.0703@gmail.com (Kaarthik)</webMaster>
+    <copyright>© Copyright 2018</copyright>
+    
+	<atom:link href="https://karthikraobr.github.io/page/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>https://karthikraobr.github.io/page/resume/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>karthik.0703@gmail.com (Kaarthik)</author>
+      <guid>https://karthikraobr.github.io/page/resume/</guid>
+      <description>It appears that you don&#39;t have a PDF plugin. Click here to download the PDF file.
+   .pdf-container { height: 0; width: 100%; padding-bottom: 129.41%; /* 11/8.5 = 1.2941 */ overflow: hidden; position: relative; } .pdf-container object { width: 100%; height: 100%; position: absolute; top: 0; left: 0; } </description>
+    </item>
+    
+    <item>
+      <title>About me</title>
+      <link>https://karthikraobr.github.io/page/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>karthik.0703@gmail.com (Kaarthik)</author>
+      <guid>https://karthikraobr.github.io/page/about/</guid>
+      <description>Hey there! I am Kaarthik. I was born in the garden city of India - Bangalore and have lived a major part of my life there. Currently I live in Paderborn, a small city in Germany where I am pursuing my masters in computer science. I also work part-time for Diebold Nixdorf in their Research &amp;amp; Innovation department.
+I got my first computer when I was in my seventh grade and ever since I have been hooked to them.</description>
+    </item>
+    
+  </channel>
+</rss>
