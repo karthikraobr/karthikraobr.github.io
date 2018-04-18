@@ -193,7 +193,7 @@ ga('send', 'pageview');
   
   
   &nbsp;|&nbsp;
-  <i class="fa fa-clock-o"></i> 6 minutes (1240 words)
+  <i class="fa fa-clock-o"></i> 6 minutes (1235 words)
   
   
 </span>
@@ -247,44 +247,32 @@ ga('send', 'pageview');
 
 <p><strong>Short variable declarations</strong> - This one&rsquo;s my favourite. The &ldquo;:=&rdquo; operator is basically a short hand for variable declaration and assignment. Keep in mind that this shorthand can be used only inside functions.</p>
 
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code class="language-go" data-lang="go"><span class="lnt">1</span><span class="lnt">2</span><span class="lnt">3</span><span class="lnt">4</span><span class="lnt">5</span><span class="lnt">6</span><span class="lnt">7</span><span class="lnt">8</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-go" data-lang="go"><span class="kn">package</span> <span class="nx">main</span>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-go" data-lang="go"><span style="color:#f92672">package</span> <span style="color:#a6e22e">main</span>
 
-<span class="kn">import</span> <span class="s">&#34;fmt&#34;</span>
+<span style="color:#f92672">import</span> <span style="color:#e6db74">&#34;fmt&#34;</span>
 
-<span class="kd">func</span> <span class="nx">main</span><span class="p">()</span> <span class="p">{</span>
-	<span class="nx">result</span> <span class="o">:=</span> <span class="s">&#34;best&#34;</span>
-	<span class="nx">fmt</span><span class="p">.</span><span class="nx">Printf</span><span class="p">(</span><span class="s">&#34;Go is the %s&#34;</span><span class="p">,</span><span class="nx">result</span><span class="p">)</span>
-<span class="p">}</span></code></pre></td></tr></table>
-</div>
-</div>
+<span style="color:#66d9ef">func</span> <span style="color:#a6e22e">main</span>() {
+	<span style="color:#a6e22e">result</span> <span style="color:#f92672">:=</span> <span style="color:#e6db74">&#34;best&#34;</span>
+	<span style="color:#a6e22e">fmt</span>.<span style="color:#a6e22e">Printf</span>(<span style="color:#e6db74">&#34;Go is the %s&#34;</span>,<span style="color:#a6e22e">result</span>)
+}</code></pre></div>
 
 <p><strong>Multiple Return Values</strong> - Go supports returning multiple values from a function. Most library functions return a result and an error. This is especially useful since Go has no built-in exceptions and exception handling mechanism. Instead Go uses the error type to indicate an abnormal state.</p>
 
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code class="language-go" data-lang="go"><span class="lnt"> 1</span><span class="lnt"> 2</span><span class="lnt"> 3</span><span class="lnt"> 4</span><span class="lnt"> 5</span><span class="lnt"> 6</span><span class="lnt"> 7</span><span class="lnt"> 8</span><span class="lnt"> 9</span><span class="lnt">10</span><span class="lnt">11</span><span class="lnt">12</span><span class="lnt">13</span><span class="lnt">14</span><span class="lnt">15</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-go" data-lang="go"><span class="kn">package</span> <span class="nx">main</span>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-go" data-lang="go"><span style="color:#f92672">package</span> <span style="color:#a6e22e">main</span>
 
-<span class="kn">import</span> <span class="s">&#34;fmt&#34;</span>                 
+<span style="color:#f92672">import</span> <span style="color:#e6db74">&#34;fmt&#34;</span>                 
 
-<span class="c1">//Returns multiple values
-</span><span class="c1"></span><span class="kd">func</span> <span class="nx">getWords</span><span class="p">()</span> <span class="p">(</span><span class="kt">string</span><span class="p">,</span> <span class="kt">string</span><span class="p">)</span> <span class="p">{</span>
-    <span class="k">return</span> <span class="s">&#34;hello&#34;</span><span class="p">,</span> <span class="s">&#34;world&#34;</span>
-<span class="p">}</span>
-<span class="kd">func</span> <span class="nx">main</span><span class="p">()</span> <span class="p">{</span>
-    <span class="nx">a</span><span class="p">,</span> <span class="nx">b</span> <span class="o">:=</span> <span class="nx">getWords</span><span class="p">()</span>
-    <span class="nx">fmt</span><span class="p">.</span><span class="nx">Printf</span><span class="p">(</span><span class="s">&#34;%s %s\n&#34;</span><span class="p">,</span><span class="nx">a</span><span class="p">,</span><span class="nx">b</span><span class="p">)</span>
-    <span class="c1">//Ignore one of the returned values
-</span><span class="c1"></span>    <span class="nx">_</span><span class="p">,</span> <span class="nx">c</span> <span class="o">:=</span> <span class="nx">getWords</span><span class="p">()</span>
-    <span class="nx">fmt</span><span class="p">.</span><span class="nx">Println</span><span class="p">(</span><span class="nx">c</span><span class="p">)</span>
-<span class="p">}</span></code></pre></td></tr></table>
-</div>
-</div>
+<span style="color:#75715e">//Returns multiple values
+</span><span style="color:#75715e"></span><span style="color:#66d9ef">func</span> <span style="color:#a6e22e">getWords</span>() (<span style="color:#66d9ef">string</span>, <span style="color:#66d9ef">string</span>) {
+    <span style="color:#66d9ef">return</span> <span style="color:#e6db74">&#34;hello&#34;</span>, <span style="color:#e6db74">&#34;world&#34;</span>
+}
+<span style="color:#66d9ef">func</span> <span style="color:#a6e22e">main</span>() {
+    <span style="color:#a6e22e">a</span>, <span style="color:#a6e22e">b</span> <span style="color:#f92672">:=</span> <span style="color:#a6e22e">getWords</span>()
+    <span style="color:#a6e22e">fmt</span>.<span style="color:#a6e22e">Printf</span>(<span style="color:#e6db74">&#34;%s %s\n&#34;</span>,<span style="color:#a6e22e">a</span>,<span style="color:#a6e22e">b</span>)
+    <span style="color:#75715e">//Ignore one of the returned values
+</span><span style="color:#75715e"></span>    <span style="color:#a6e22e">_</span>, <span style="color:#a6e22e">c</span> <span style="color:#f92672">:=</span> <span style="color:#a6e22e">getWords</span>()
+    <span style="color:#a6e22e">fmt</span>.<span style="color:#a6e22e">Println</span>(<span style="color:#a6e22e">c</span>)
+}</code></pre></div>
 
 <h3 id="oop">OOP</h3>
 
@@ -294,13 +282,7 @@ ga('send', 'pageview');
 
 <p>STOP! Before you read any further I suggest that you first watch this video by Rob Pike - <a href="https://www.youtube.com/watch?v=oV9rvDllKEg" target="_blank"> Concurrency is not Parallelism</a>. Go was designed with concurrency in mind. Go supports concurrency with Goroutines and Channels. Goroutines are lightweight threads which are managed by the runtime. Multiple goroutines are multiplexed on a single OS thread. This has multiple adavantages such as lesser memory consumption (approximately 2kb on the stack), lesser setup and teardown costs and lesser context switching costs. And spinning a goroutine is as easy as prefixing go to your function call as shown below.</p>
 
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code class="language-go" data-lang="go"><span class="lnt">1</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-go" data-lang="go"><span class="k">go</span> <span class="nx">getWords</span><span class="p">()</span></code></pre></td></tr></table>
-</div>
-</div>
+<p>go getWords()</p>
 
 <p>A channel is a data structure that is used to communicate between multiple goroutines. Traditionally threads in languages such as Java communicate with each other via Shared Memory which require you to acquire and release locks. But go follows a a different philosophy i.e. &ldquo;Don&rsquo;t communicate by sharing memory, share memory by communicating&rdquo;. Goroutines communicate with each other by passing channels rather than acquiring locks to read and write from shared memory.</p>
 
@@ -372,19 +354,13 @@ ga('send', 'pageview');
 
 <p>I found the Error Handling in Go to be repetitive. If a function returns a result and an error, you are expected to check if the error is nil and then continue with you regular logic. And if the called function can return mutliple types of errors, then you would have to check for the type of the error in addition to checking if it is not nil.</p>
 
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code class="language-go" data-lang="go"><span class="lnt">1</span><span class="lnt">2</span><span class="lnt">3</span><span class="lnt">4</span><span class="lnt">5</span><span class="lnt">6</span><span class="lnt">7</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-go" data-lang="go">            
-<span class="nx">info</span><span class="p">,</span> <span class="nx">err</span> <span class="o">:=</span> <span class="nx">echoReq</span><span class="p">.</span><span class="nx">GetSlotValue</span><span class="p">(</span><span class="nx">screenMessage</span><span class="p">)</span>
-<span class="k">if</span> <span class="nx">err</span> <span class="o">!=</span> <span class="kc">nil</span> <span class="p">{</span>
-    <span class="c1">// Do error handling
-</span><span class="c1"></span><span class="p">}</span><span class="k">else</span><span class="p">{</span>
-    <span class="c1">// regular logic
-</span><span class="c1"></span><span class="p">}</span></code></pre></td></tr></table>
-</div>
-</div>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-go" data-lang="go">         
+<span style="color:#a6e22e">info</span>, <span style="color:#a6e22e">err</span> <span style="color:#f92672">:=</span> <span style="color:#a6e22e">echoReq</span>.<span style="color:#a6e22e">GetSlotValue</span>(<span style="color:#a6e22e">screenMessage</span>)
+<span style="color:#66d9ef">if</span> <span style="color:#a6e22e">err</span> <span style="color:#f92672">!=</span> <span style="color:#66d9ef">nil</span> {
+    <span style="color:#75715e">// Do error handling
+</span><span style="color:#75715e"></span>}<span style="color:#66d9ef">else</span>{
+    <span style="color:#75715e">// regular logic
+</span><span style="color:#75715e"></span>}</code></pre></div>
 
 <h3 id="no-overloading-and-optional-parameters">No Overloading and Optional Parameters</h3>
 
@@ -394,28 +370,22 @@ ga('send', 'pageview');
 
 <p>This is just me being picky and dumb, but coming from C# I have the habbit of writing the else condition in a new line rather than in the same line as the closing brace of the if condition. This results in a syntax error which makes me sad :(. <a href="https://play.golang.org/p/1NWNCItGU7s" target="_blank">Test it yourself.</a></p>
 
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code class="language-go" data-lang="go"><span class="lnt"> 1</span><span class="lnt"> 2</span><span class="lnt"> 3</span><span class="lnt"> 4</span><span class="lnt"> 5</span><span class="lnt"> 6</span><span class="lnt"> 7</span><span class="lnt"> 8</span><span class="lnt"> 9</span><span class="lnt">10</span><span class="lnt">11</span><span class="lnt">12</span><span class="lnt">13</span><span class="lnt">14</span><span class="lnt">15</span><span class="lnt">16</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-go" data-lang="go"><span class="kn">package</span> <span class="nx">main</span>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-go" data-lang="go"><span style="color:#f92672">package</span> <span style="color:#a6e22e">main</span>
 
-<span class="kn">import</span> <span class="p">(</span>
-	<span class="s">&#34;fmt&#34;</span>
-<span class="p">)</span>
+<span style="color:#f92672">import</span> (
+	<span style="color:#e6db74">&#34;fmt&#34;</span>
+)
 
-<span class="kd">func</span> <span class="nx">main</span><span class="p">()</span> <span class="p">{</span>
-	<span class="nx">a</span><span class="o">:=</span><span class="mi">1</span>
-	<span class="k">if</span><span class="p">(</span><span class="nx">a</span><span class="o">==</span><span class="mi">1</span><span class="p">){</span>
-	    <span class="nx">fmt</span><span class="p">.</span><span class="nx">Println</span><span class="p">(</span><span class="s">&#34;a is one&#34;</span><span class="p">)</span>
-    <span class="p">}</span>
-    <span class="c1">//This results in syntax error.
-</span><span class="c1"></span>	<span class="k">else</span><span class="p">{</span>
-	    <span class="nx">fmt</span><span class="p">.</span><span class="nx">Println</span><span class="p">(</span><span class="s">&#34;a is not one&#34;</span><span class="p">)</span>
-	<span class="p">}</span>
-<span class="p">}</span></code></pre></td></tr></table>
-</div>
-</div>
+<span style="color:#66d9ef">func</span> <span style="color:#a6e22e">main</span>() {
+	<span style="color:#a6e22e">a</span><span style="color:#f92672">:=</span><span style="color:#ae81ff">1</span>
+	<span style="color:#66d9ef">if</span>(<span style="color:#a6e22e">a</span><span style="color:#f92672">==</span><span style="color:#ae81ff">1</span>){
+	    <span style="color:#a6e22e">fmt</span>.<span style="color:#a6e22e">Println</span>(<span style="color:#e6db74">&#34;a is one&#34;</span>)
+    }
+    <span style="color:#75715e">//This results in syntax error.
+</span><span style="color:#75715e"></span>	<span style="color:#66d9ef">else</span>{
+	    <span style="color:#a6e22e">fmt</span>.<span style="color:#a6e22e">Println</span>(<span style="color:#e6db74">&#34;a is not one&#34;</span>)
+	}
+}</code></pre></div>
 
       </article>
 
