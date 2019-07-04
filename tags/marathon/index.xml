@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Marathon on Gibberish</title>
+    <link>https://karthikraobr.github.io/tags/marathon/</link>
+    <description>Recent content in Marathon on Gibberish</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>karthik.0703@gmail.com (Kaarthik)</managingEditor>
+    <webMaster>karthik.0703@gmail.com (Kaarthik)</webMaster>
+    <copyright>© Copyright 2018</copyright>
+    <lastBuildDate>Wed, 15 May 2019 12:22:16 +0100</lastBuildDate>
+    
+	<atom:link href="https://karthikraobr.github.io/tags/marathon/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>First Marathon</title>
+      <link>https://karthikraobr.github.io/post/firstmarathon/</link>
+      <pubDate>Wed, 15 May 2019 12:22:16 +0100</pubDate>
+      <author>karthik.0703@gmail.com (Kaarthik)</author>
+      <guid>https://karthikraobr.github.io/post/firstmarathon/</guid>
+      <description>Ever since I started running, it has always been a dream of mine to successfully finish a marathon. I can now proudly say that I am half way there.</description>
+    </item>
+    
+  </channel>
+</rss>
