@@ -9,26 +9,26 @@
     <managingEditor>karthik.0703@gmail.com (Kaarthik)</managingEditor>
     <webMaster>karthik.0703@gmail.com (Kaarthik)</webMaster>
     <copyright>© Copyright 2018</copyright>
-    <lastBuildDate>Mon, 21 Aug 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 26 Dec 2017 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://kaarthik.dev/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Blog</title>
-      <link>https://kaarthik.dev/categories/blog/</link>
-      <pubDate>Mon, 21 Aug 2017 00:00:00 +0000</pubDate>
-      <author>karthik.0703@gmail.com (Kaarthik)</author>
-      <guid>https://kaarthik.dev/categories/blog/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Technology</title>
+      <title>technology</title>
       <link>https://kaarthik.dev/categories/technology/</link>
       <pubDate>Tue, 26 Dec 2017 00:00:00 +0000</pubDate>
       <author>karthik.0703@gmail.com (Kaarthik)</author>
       <guid>https://kaarthik.dev/categories/technology/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>blog</title>
+      <link>https://kaarthik.dev/categories/blog/</link>
+      <pubDate>Mon, 21 Aug 2017 00:00:00 +0000</pubDate>
+      <author>karthik.0703@gmail.com (Kaarthik)</author>
+      <guid>https://kaarthik.dev/categories/blog/</guid>
       <description></description>
     </item>
     
