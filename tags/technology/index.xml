@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Technology on Gibberish</title>
-    <link>https://karthikraobr.github.io/tags/technology/</link>
+    <link>https://kaarthik.dev/tags/technology/</link>
     <description>Recent content in Technology on Gibberish</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -11,15 +11,15 @@
     <copyright>© Copyright 2018</copyright>
     <lastBuildDate>Tue, 26 Dec 2017 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://karthikraobr.github.io/tags/technology/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://kaarthik.dev/tags/technology/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>My relationship with Go</title>
-      <link>https://karthikraobr.github.io/post/whyilovego/</link>
+      <link>https://kaarthik.dev/post/whyilovego/</link>
       <pubDate>Tue, 26 Dec 2017 00:00:00 +0000</pubDate>
       <author>karthik.0703@gmail.com (Kaarthik)</author>
-      <guid>https://karthikraobr.github.io/post/whyilovego/</guid>
+      <guid>https://kaarthik.dev/post/whyilovego/</guid>
       <description>I have a love-hate relationship (more love and less hate :P) with any new programming language I pick up. This post describes my relationship with Go.
 Why I love it I was introduced to Go by Bjoern as a part of my student job and I have been smitten by it ever since. Here are a few reason&amp;rsquo;s why I love go, in no particular order :
 Fast Compilation Most popular languages are atleast a decade old and do not take advantage of the newer hardware.</description>

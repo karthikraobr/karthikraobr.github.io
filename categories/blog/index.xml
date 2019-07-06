@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blog on Gibberish</title>
-    <link>https://karthikraobr.github.io/categories/blog/</link>
+    <link>https://kaarthik.dev/categories/blog/</link>
     <description>Recent content in Blog on Gibberish</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -11,24 +11,24 @@
     <copyright>© Copyright 2018</copyright>
     <lastBuildDate>Mon, 21 Aug 2017 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://karthikraobr.github.io/categories/blog/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://kaarthik.dev/categories/blog/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>The art of procrastination</title>
-      <link>https://karthikraobr.github.io/post/procrastination/</link>
+      <link>https://kaarthik.dev/post/procrastination/</link>
       <pubDate>Mon, 21 Aug 2017 00:00:00 +0000</pubDate>
       <author>karthik.0703@gmail.com (Kaarthik)</author>
-      <guid>https://karthikraobr.github.io/post/procrastination/</guid>
+      <guid>https://kaarthik.dev/post/procrastination/</guid>
       <description>I have been thinking of updating my blog for more than a month now and you all guessed it right, I procrastinated. What better way to update it, than write a post about procrastination. When someone asks me &amp;ldquo;What am I good at&amp;rdquo;? my immediate answer would be procrastination. I am a full-time procrastinator! I don&amp;rsquo;t understand why I do it and how I do it, but at the end of the day I realize that I wasted it procrastinating.</description>
     </item>
     
     <item>
       <title>Hello World</title>
-      <link>https://karthikraobr.github.io/post/helloworld/</link>
+      <link>https://kaarthik.dev/post/helloworld/</link>
       <pubDate>Thu, 15 Jun 2017 00:00:00 +0000</pubDate>
       <author>karthik.0703@gmail.com (Kaarthik)</author>
-      <guid>https://karthikraobr.github.io/post/helloworld/</guid>
+      <guid>https://kaarthik.dev/post/helloworld/</guid>
       <description>So! los gehts (german for here we go). Hello World! This is usually the first program developers&amp;rsquo; write to get the taste of a new programming language. I am new to blogging and hence this post! Considering how long I have been working with computers, I am pretty late to the blogging scene, but hey better late than never. I still haven&amp;rsquo;t decided what I will be posting here. Stay Tuned, Stay Hungry, Stay Foolish!</description>
     </item>
     

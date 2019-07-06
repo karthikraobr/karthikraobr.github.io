@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Gibberish</title>
-    <link>https://karthikraobr.github.io/categories/</link>
+    <link>https://kaarthik.dev/categories/</link>
     <description>Recent content in Categories on Gibberish</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -11,24 +11,24 @@
     <copyright>© Copyright 2018</copyright>
     <lastBuildDate>Mon, 21 Aug 2017 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://karthikraobr.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://kaarthik.dev/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Blog</title>
-      <link>https://karthikraobr.github.io/categories/blog/</link>
+      <link>https://kaarthik.dev/categories/blog/</link>
       <pubDate>Mon, 21 Aug 2017 00:00:00 +0000</pubDate>
       <author>karthik.0703@gmail.com (Kaarthik)</author>
-      <guid>https://karthikraobr.github.io/categories/blog/</guid>
+      <guid>https://kaarthik.dev/categories/blog/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Technology</title>
-      <link>https://karthikraobr.github.io/categories/technology/</link>
+      <link>https://kaarthik.dev/categories/technology/</link>
       <pubDate>Tue, 26 Dec 2017 00:00:00 +0000</pubDate>
       <author>karthik.0703@gmail.com (Kaarthik)</author>
-      <guid>https://karthikraobr.github.io/categories/technology/</guid>
+      <guid>https://kaarthik.dev/categories/technology/</guid>
       <description></description>
     </item>
     

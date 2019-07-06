@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Gibberish</title>
-    <link>https://karthikraobr.github.io/tags/</link>
+    <link>https://kaarthik.dev/tags/</link>
     <description>Recent content in Tags on Gibberish</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -11,69 +11,69 @@
     <copyright>© Copyright 2018</copyright>
     <lastBuildDate>Sat, 29 Dec 2018 12:22:16 +0100</lastBuildDate>
     
-	<atom:link href="https://karthikraobr.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://kaarthik.dev/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>2018</title>
-      <link>https://karthikraobr.github.io/tags/2018/</link>
+      <link>https://kaarthik.dev/tags/2018/</link>
       <pubDate>Sat, 29 Dec 2018 12:22:16 +0100</pubDate>
       <author>karthik.0703@gmail.com (Kaarthik)</author>
-      <guid>https://karthikraobr.github.io/tags/2018/</guid>
+      <guid>https://kaarthik.dev/tags/2018/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Firstpost</title>
-      <link>https://karthikraobr.github.io/tags/firstpost/</link>
+      <link>https://kaarthik.dev/tags/firstpost/</link>
       <pubDate>Thu, 15 Jun 2017 00:00:00 +0000</pubDate>
       <author>karthik.0703@gmail.com (Kaarthik)</author>
-      <guid>https://karthikraobr.github.io/tags/firstpost/</guid>
+      <guid>https://kaarthik.dev/tags/firstpost/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Go</title>
-      <link>https://karthikraobr.github.io/tags/go/</link>
+      <link>https://kaarthik.dev/tags/go/</link>
       <pubDate>Tue, 26 Dec 2017 00:00:00 +0000</pubDate>
       <author>karthik.0703@gmail.com (Kaarthik)</author>
-      <guid>https://karthikraobr.github.io/tags/go/</guid>
+      <guid>https://kaarthik.dev/tags/go/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Golang</title>
-      <link>https://karthikraobr.github.io/tags/golang/</link>
+      <link>https://kaarthik.dev/tags/golang/</link>
       <pubDate>Tue, 26 Dec 2017 00:00:00 +0000</pubDate>
       <author>karthik.0703@gmail.com (Kaarthik)</author>
-      <guid>https://karthikraobr.github.io/tags/golang/</guid>
+      <guid>https://kaarthik.dev/tags/golang/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Life</title>
-      <link>https://karthikraobr.github.io/tags/life/</link>
+      <link>https://kaarthik.dev/tags/life/</link>
       <pubDate>Mon, 21 Aug 2017 00:00:00 +0000</pubDate>
       <author>karthik.0703@gmail.com (Kaarthik)</author>
-      <guid>https://karthikraobr.github.io/tags/life/</guid>
+      <guid>https://kaarthik.dev/tags/life/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Procrastination</title>
-      <link>https://karthikraobr.github.io/tags/procrastination/</link>
+      <link>https://kaarthik.dev/tags/procrastination/</link>
       <pubDate>Mon, 21 Aug 2017 00:00:00 +0000</pubDate>
       <author>karthik.0703@gmail.com (Kaarthik)</author>
-      <guid>https://karthikraobr.github.io/tags/procrastination/</guid>
+      <guid>https://kaarthik.dev/tags/procrastination/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Technology</title>
-      <link>https://karthikraobr.github.io/tags/technology/</link>
+      <link>https://kaarthik.dev/tags/technology/</link>
       <pubDate>Tue, 26 Dec 2017 00:00:00 +0000</pubDate>
       <author>karthik.0703@gmail.com (Kaarthik)</author>
-      <guid>https://karthikraobr.github.io/tags/technology/</guid>
+      <guid>https://kaarthik.dev/tags/technology/</guid>
       <description></description>
     </item>
     
