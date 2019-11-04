@@ -23,19 +23,24 @@
   </url>
   
   <url>
-    <loc>https://kaarthik.dev/tags/2018/</loc>
-    <lastmod>2018-12-29T12:22:16+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://kaarthik.dev/</loc>
-    <lastmod>2018-12-29T12:22:16+01:00</lastmod>
+    <lastmod>2019-07-14T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://kaarthik.dev/post/</loc>
+    <lastmod>2019-07-14T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://kaarthik.dev/post/running/</loc>
+    <lastmod>2019-07-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kaarthik.dev/tags/2018/</loc>
     <lastmod>2018-12-29T12:22:16+01:00</lastmod>
     <priority>0</priority>
   </url>

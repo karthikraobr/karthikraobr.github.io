@@ -9,7 +9,7 @@
     <managingEditor>karthik.0703@gmail.com (Kaarthik)</managingEditor>
     <webMaster>karthik.0703@gmail.com (Kaarthik)</webMaster>
     <copyright>© Copyright 2018</copyright>
-    <lastBuildDate>Sat, 29 Dec 2018 12:22:16 +0100</lastBuildDate>
+    <lastBuildDate>Sun, 14 Jul 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://kaarthik.dev/index.xml" rel="self" type="application/rss+xml" />
     
@@ -51,6 +51,15 @@ Fast Compilation Most popular languages are atleast a decade old and do not take
       <author>karthik.0703@gmail.com (Kaarthik)</author>
       <guid>https://kaarthik.dev/post/helloworld/</guid>
       <description>So! los gehts (german for here we go). Hello World! This is usually the first program developers&amp;rsquo; write to get the taste of a new programming language. I am new to blogging and hence this post! Considering how long I have been working with computers, I am pretty late to the blogging scene, but hey better late than never. I still haven&amp;rsquo;t decided what I will be posting here. Stay Tuned, Stay Hungry, Stay Foolish!</description>
+    </item>
+    
+    <item>
+      <title>Running</title>
+      <link>https://kaarthik.dev/post/running/</link>
+      <pubDate>Sun, 14 Jul 2019 00:00:00 +0000</pubDate>
+      <author>karthik.0703@gmail.com (Kaarthik)</author>
+      <guid>https://kaarthik.dev/post/running/</guid>
+      <description>I just clocked 700 kilometers of running today and what better way to celebrate than blog about it right ? 😝 I didn&amp;rsquo;t enjoy running until recently. I would occasionally take part in a 10k and train for a week or two prior to that and that would be it. Once I moved to Berlin, one of the first things I did apart from hunting for houses was sign up for the Berlin Half-marathon with a friend of mine.</description>
     </item>
     
     <item>
