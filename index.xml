@@ -6,7 +6,6 @@
     <description>Recent content on Gibberish</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>© Copyright 2018</copyright>
     <lastBuildDate>Tue, 29 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://kaarthik.dev/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Résumé</title>
@@ -14,8 +13,8 @@
       <pubDate>Tue, 29 Dec 2020 00:00:00 +0000</pubDate>
       
       <guid>https://kaarthik.dev/page/resume/</guid>
-      <description> It appears that you don&#39;t have a PDF plugin. Click here to download the PDF file.
-   .pdf-container { height: 0; width: 100%; padding-bottom: 129.41%; /* 11/8.5 = 1.2941 */ overflow: hidden; position: relative; } .pdf-container object { width: 100%; height: 100%; position: absolute; top: 0; left: 0; } </description>
+      <description>It appears that you don&#39;t have a PDF plugin. Click here to download the PDF file.
+   .pdf-container { height: 0; width: 100%; padding-bottom: 129.41%; /* 11/8.5 = 1.2941 */ overflow: hidden; position: relative; } .pdf-container object { width: 100%; height: 100%; position: absolute; top: 0; left: 0; }  </description>
     </item>
     
     <item>
@@ -54,7 +53,7 @@ Masters Finally, I graduated from the University of Paderborn with a Masters deg
       
       <guid>https://kaarthik.dev/post/whyilovego/</guid>
       <description>I have a love-hate relationship (more love and less hate :P) with any new programming language I pick up. This post describes my relationship with Go.
-Why I love it  I was introduced to Goby Bjoernas a part of my student job and I have been smitten by it ever since. Here are a few reason&amp;rsquo;s why I love go, in no particular order :
+Why I love it  I was introduced to Go by Bjoern as a part of my student job and I have been smitten by it ever since. Here are a few reason&amp;rsquo;s why I love go, in no particular order :
 Fast Compilation Most popular languages are atleast a decade old and do not take advantage of the newer hardware.</description>
     </item>
     

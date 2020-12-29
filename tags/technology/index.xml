@@ -6,7 +6,6 @@
     <description>Recent content in technology on Gibberish</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>© Copyright 2018</copyright>
     <lastBuildDate>Tue, 26 Dec 2017 00:00:00 +0000</lastBuildDate><atom:link href="https://kaarthik.dev/tags/technology/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>My relationship with Go</title>
@@ -15,7 +14,7 @@
       
       <guid>https://kaarthik.dev/post/whyilovego/</guid>
       <description>I have a love-hate relationship (more love and less hate :P) with any new programming language I pick up. This post describes my relationship with Go.
-Why I love it  I was introduced to Goby Bjoernas a part of my student job and I have been smitten by it ever since. Here are a few reason&amp;rsquo;s why I love go, in no particular order :
+Why I love it  I was introduced to Go by Bjoern as a part of my student job and I have been smitten by it ever since. Here are a few reason&amp;rsquo;s why I love go, in no particular order :
 Fast Compilation Most popular languages are atleast a decade old and do not take advantage of the newer hardware.</description>
     </item>
     
