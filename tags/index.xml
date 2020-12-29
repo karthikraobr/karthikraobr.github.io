@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Gibberish</title>
@@ -6,20 +6,59 @@
     <description>Recent content in Tags on Gibberish</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <managingEditor>karthik.0703@gmail.com (Kaarthik)</managingEditor>
-    <webMaster>karthik.0703@gmail.com (Kaarthik)</webMaster>
     <copyright>© Copyright 2018</copyright>
-    <lastBuildDate>Sat, 29 Dec 2018 12:22:16 +0100</lastBuildDate>
+    <lastBuildDate>Tue, 29 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://kaarthik.dev/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>resume</title>
+      <link>https://kaarthik.dev/tags/resume/</link>
+      <pubDate>Tue, 29 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://kaarthik.dev/tags/resume/</guid>
+      <description></description>
+    </item>
     
-	<atom:link href="https://kaarthik.dev/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>friends</title>
+      <link>https://kaarthik.dev/tags/friends/</link>
+      <pubDate>Sun, 14 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://kaarthik.dev/tags/friends/</guid>
+      <description></description>
+    </item>
     
+    <item>
+      <title>injuries</title>
+      <link>https://kaarthik.dev/tags/injuries/</link>
+      <pubDate>Sun, 14 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://kaarthik.dev/tags/injuries/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>running</title>
+      <link>https://kaarthik.dev/tags/running/</link>
+      <pubDate>Sun, 14 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://kaarthik.dev/tags/running/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>2018</title>
       <link>https://kaarthik.dev/tags/2018/</link>
       <pubDate>Sat, 29 Dec 2018 12:22:16 +0100</pubDate>
-      <author>karthik.0703@gmail.com (Kaarthik)</author>
+      
       <guid>https://kaarthik.dev/tags/2018/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>aboutme</title>
+      <link>https://kaarthik.dev/tags/aboutme/</link>
+      <pubDate>Sat, 29 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://kaarthik.dev/tags/aboutme/</guid>
       <description></description>
     </item>
     
@@ -27,7 +66,7 @@
       <title>go</title>
       <link>https://kaarthik.dev/tags/go/</link>
       <pubDate>Tue, 26 Dec 2017 00:00:00 +0000</pubDate>
-      <author>karthik.0703@gmail.com (Kaarthik)</author>
+      
       <guid>https://kaarthik.dev/tags/go/</guid>
       <description></description>
     </item>
@@ -36,7 +75,7 @@
       <title>golang</title>
       <link>https://kaarthik.dev/tags/golang/</link>
       <pubDate>Tue, 26 Dec 2017 00:00:00 +0000</pubDate>
-      <author>karthik.0703@gmail.com (Kaarthik)</author>
+      
       <guid>https://kaarthik.dev/tags/golang/</guid>
       <description></description>
     </item>
@@ -45,7 +84,7 @@
       <title>technology</title>
       <link>https://kaarthik.dev/tags/technology/</link>
       <pubDate>Tue, 26 Dec 2017 00:00:00 +0000</pubDate>
-      <author>karthik.0703@gmail.com (Kaarthik)</author>
+      
       <guid>https://kaarthik.dev/tags/technology/</guid>
       <description></description>
     </item>
@@ -54,7 +93,7 @@
       <title>life</title>
       <link>https://kaarthik.dev/tags/life/</link>
       <pubDate>Mon, 21 Aug 2017 00:00:00 +0000</pubDate>
-      <author>karthik.0703@gmail.com (Kaarthik)</author>
+      
       <guid>https://kaarthik.dev/tags/life/</guid>
       <description></description>
     </item>
@@ -63,7 +102,7 @@
       <title>procrastination</title>
       <link>https://kaarthik.dev/tags/procrastination/</link>
       <pubDate>Mon, 21 Aug 2017 00:00:00 +0000</pubDate>
-      <author>karthik.0703@gmail.com (Kaarthik)</author>
+      
       <guid>https://kaarthik.dev/tags/procrastination/</guid>
       <description></description>
     </item>
@@ -72,7 +111,7 @@
       <title>firstpost</title>
       <link>https://kaarthik.dev/tags/firstpost/</link>
       <pubDate>Thu, 15 Jun 2017 00:00:00 +0000</pubDate>
-      <author>karthik.0703@gmail.com (Kaarthik)</author>
+      
       <guid>https://kaarthik.dev/tags/firstpost/</guid>
       <description></description>
     </item>

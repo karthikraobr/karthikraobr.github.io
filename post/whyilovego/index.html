@@ -1,333 +1,144 @@
 <!DOCTYPE html>
-<html lang="en" itemscope itemtype="http://schema.org/WebPage">
-  <head>
-    
+<html lang="en">
 
-  <meta charset="utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
-
-  <title>My relationship with Go - Gibberish</title>
-  <meta name="description" content="I have a love-hate relationship (more love and less hate :P) with any new programming language I pick up. This post describes my relationship with Go.
-Why I love it I was introduced to Go by Bjoern as a part of my student job and I have been smitten by it ever since. Here are a few reason&rsquo;s why I love go, in no particular order :
-Fast Compilation Most popular languages are atleast a decade old and do not take advantage of the newer hardware.">
-  <meta name="author" content="Kaarthik"/><script type="application/ld+json">
-{
-    "@context": "http://schema.org",
-    "@type": "WebSite",
-    "name": "Gibberish",
+<head>
     
-    "url": "https:\/\/kaarthik.dev"
-}
-</script><script type="application/ld+json">
-{
-  "@context": "http://schema.org",
-  "@type": "Organization",
-  "name": "",
-  "url": "https:\/\/kaarthik.dev"
-  
-  
-  
-  
-}
-</script>
-<script type="application/ld+json">
-{
-  "@context": "http://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{
-        "@type": "ListItem",
-        "position": 1,
-        "item": {
-          "@id": "https:\/\/kaarthik.dev",
-          "name": "home"
-        }
-    },{
-        "@type": "ListItem",
-        "position": 3,
-        "item": {
-          "@id": "https:\/\/kaarthik.dev\/post\/whyilovego\/",
-          "name": "My relationship with go"
-        }
-    }]
-}
-</script><script type="application/ld+json">
-{
-  "@context": "http://schema.org",
-  "@type": "Article",
-  "author": {
-    "name" : "Kaarthik"
-  },
-  "headline": "My relationship with Go",
-  "description" : "I have a love-hate relationship (more love and less hate :P) with any new programming language I pick up. This post describes my relationship with Go.\nWhy I love it I was introduced to Go by Bjoern as a part of my student job and I have been smitten by it ever since. Here are a few reason\x26rsquo;s why I love go, in no particular order :\nFast Compilation Most popular languages are atleast a decade old and do not take advantage of the newer hardware.",
-  "inLanguage" : "en",
-  "wordCount":  1235 ,
-  "datePublished" : "2017-12-26T00:00:00",
-  "dateModified" : "2017-12-26T00:00:00",
-  "image" : "https:\/\/kaarthik.dev\/img\/profile.jpg",
-  "keywords" : [ "go, golang, technology" ],
-  "mainEntityOfPage" : "https:\/\/kaarthik.dev\/post\/whyilovego\/",
-  "publisher" : {
-    "@type": "Organization",
-    "name" : "https:\/\/kaarthik.dev",
-    "logo" : {
-        "@type" : "ImageObject",
-        "url" : "https:\/\/kaarthik.dev\/img\/profile.jpg",
-        "height" :  60 ,
-        "width" :  60
-    }
-  }
-}
-</script>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+<meta name="HandheldFriendly" content="True" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+<meta name="generator" content="Hugo 0.79.1" />
+
+
+<link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
+<link rel="manifest" href="/img/site.webmanifest">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+
+
+<title>My relationship with Go - Gibberish</title>
+
+
+<meta name="author" content="Kaarthik" />
+
+
+
+<meta name="keywords" content="go, golang, technology" />
+
 
 <meta property="og:title" content="My relationship with Go" />
-<meta property="og:description" content="I have a love-hate relationship (more love and less hate :P) with any new programming language I pick up. This post describes my relationship with Go.
-Why I love it I was introduced to Go by Bjoern as a part of my student job and I have been smitten by it ever since. Here are a few reason&rsquo;s why I love go, in no particular order :
-Fast Compilation Most popular languages are atleast a decade old and do not take advantage of the newer hardware.">
-<meta property="og:image" content="https://kaarthik.dev/img/profile.jpg" />
-<meta property="og:url" content="https://kaarthik.dev/post/whyilovego/" />
-<meta property="og:type" content="website" />
-<meta property="og:site_name" content="Gibberish" />
-
-  <meta name="twitter:title" content="My relationship with Go" />
-  <meta name="twitter:description" content="I have a love-hate relationship (more love and less hate :P) with any new programming language I pick up. This post describes my relationship with Go.
-Why I love it I was introduced to Go by Bjoern as …">
-  <meta name="twitter:image" content="https://kaarthik.dev/img/profile.jpg" />
-  <meta name="twitter:card" content="summary" />
-  <meta name="twitter:site" content="@karthikraobr" />
-  <meta name="twitter:creator" content="@karthikraobr" />
-  <link href='https://kaarthik.dev/img/favicon.ico' rel='icon' type='image/x-icon'/>
-  <meta name="generator" content="Hugo 0.55.6" />
-  <link rel="alternate" href="https://kaarthik.dev/index.xml" type="application/rss+xml" title="Gibberish"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css" integrity="sha384-9eLZqc9ds8eNjO3TmqPeYcDj8n+Qfa4nuSiGYa6DjLNcv9BtN69ZIulL9+8CqC9Y" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"><link rel="stylesheet" href="https://kaarthik.dev/css/main.css" /><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" />
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" />
-  <link rel="stylesheet" href="https://kaarthik.dev/css/highlight.min.css" /><link rel="stylesheet" href="https://kaarthik.dev/css/codeblock.css" /><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe.min.css" integrity="sha384-h/L2W9KefUClHWaty3SLE5F/qvc4djlyR4qY3NUV5HGQBBW7stbcfff1+I/vmsHh" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/default-skin/default-skin.min.css" integrity="sha384-iD0dNku6PYSIQLyfTOpB06F2KCZJAKLOThS5HRe8b3ibhdEQ6eKsFf/EeFxdOt5R" crossorigin="anonymous">
+<meta name="twitter:title" content="My relationship with Go" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://kaarthik.dev/post/whyilovego/" /><meta property="og:description" content="I have a love-hate relationship (more love and less hate :P) with any new programming language I pick up. This post describes my relationship with Go.
+Why I love it  I was introduced to Goby Bjoernas a part of my student job and I have been smitten by it ever since. Here are a few reason&rsquo;s why I love go, in no particular order :
+Fast Compilation Most popular languages are atleast a decade old and do not take advantage of the newer hardware." />
+<meta name="twitter:description" content="I have a love-hate relationship (more love and less hate :P) with any new programming language I pick up. This post describes my relationship with Go.
+Why I love it  I was introduced to Goby Bjoernas a part of my student job and I have been smitten by it ever since. Here are a few reason&rsquo;s why I love go, in no particular order :
+Fast Compilation Most popular languages are atleast a decade old and do not take advantage of the newer hardware." /><meta name="twitter:card" content="summary" /><meta property="article:published_time" content="2017-12-26T00:00:00+00:00" /><meta property="article:modified_time" content="2017-12-26T00:00:00+00:00" />
 
 
-<script type="application/javascript">
-var doNotTrack = false;
-if (!doNotTrack) {
-	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-	ga('create', 'UA-112060036-1', 'auto');
-	
-	ga('send', 'pageview');
-}
+<style>
+    @media (prefers-color-scheme: dark) {
+        body[data-theme='auto'] img {
+            filter: brightness(60%);
+        }
+    }
+
+    body[data-theme='dark'] img {
+        filter: brightness(60%);
+    }
+</style>
+
+
+
+<link rel="stylesheet" href="https://kaarthik.dev/assets/css/fuji.min.css" />
+
+
+
+
+
+<script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+    gtag('config', 'UA-112060036-1');
 </script>
-<script async src='https://www.google-analytics.com/analytics.js'></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112060036-1"></script>
 
 
-  </head>
-  <body>
-    <nav class="navbar navbar-default navbar-fixed-top navbar-custom">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navbar">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="https://kaarthik.dev">Gibberish</a>
-    </div>
+</head>
 
-    <div class="collapse navbar-collapse" id="main-navbar">
-      <ul class="nav navbar-nav navbar-right">
-        
-          
-            <li>
-              <a title="Blog" href="/">Blog</a>
-            </li>
-          
-        
-          
-            <li>
-              <a title="About" href="/page/about/">About</a>
-            </li>
-          
-        
-          
-            <li>
-              <a title="Résumé" href="/page/resume">Résumé</a>
-            </li>
-          
-        
-          
-            <li>
-              <a title="Categories" href="/categories">Categories</a>
-            </li>
-          
-        
-          
-            <li>
-              <a title="Tags" href="/tags">Tags</a>
-            </li>
-          
-        
-
-        
-
-        
-      </ul>
-    </div>
-
+<body data-theme="auto">
+    <script data-cfasync="false">
+  
+  var fujiThemeData = localStorage.getItem('fuji_data-theme');
+  
+  if (!fujiThemeData) {
+    localStorage.setItem('fuji_data-theme', 'auto');
+  } else {
     
-      <div class="avatar-container">
-        <div class="avatar-img-border">
-          <a title="Gibberish" href="https://kaarthik.dev">
-            <img class="avatar-img" src="https://kaarthik.dev/img/profile.jpg" alt="Gibberish" />
-          </a>
+    if (fujiThemeData !== 'auto') {
+      document.body.setAttribute('data-theme', fujiThemeData === 'dark' ? 'dark' : 'light');
+    }
+  }
+</script>
+
+    <header>
+    <div class="container-lg clearfix">
+        <div class="col-12 header">
+            <a class="title-main" href="https://kaarthik.dev">Gibberish</a>
+            
+            <span class="title-sub">Kaarthik&#39;s musings</span>
+            
         </div>
-      </div>
+    </div>
+</header>
+
+    <main>
+        <div class="container-lg clearfix">
+            
+            <div class="col-12 col-md-9 float-left content">
+                
+<article>
     
+    <h2 class="post-item post-title">
+        <a href="https://kaarthik.dev/post/whyilovego/">My relationship with Go</a>
+    </h2>
+    <div class="post-item post-meta">
+        <span><i class="iconfont icon-today-sharp"></i>&nbsp;2017-12-26</span><span><i class="iconfont icon-pricetags-sharp"></i>&nbsp;<a href="/tags/go">go</a>&nbsp;<a href="/tags/golang">golang</a>&nbsp;<a href="/tags/technology">technology</a>&nbsp;</span>
 
-  </div>
-</nav>
-
-
-
-
-    
-
-
-<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
-
-<div class="pswp__bg"></div>
-
-<div class="pswp__scroll-wrap">
-    
-    <div class="pswp__container">
-      <div class="pswp__item"></div>
-      <div class="pswp__item"></div>
-      <div class="pswp__item"></div>
     </div>
     
-    <div class="pswp__ui pswp__ui--hidden">
-    <div class="pswp__top-bar">
-      
-      <div class="pswp__counter"></div>
-      <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
-      <button class="pswp__button pswp__button--share" title="Share"></button>
-      <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
-      <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
-      
-      
-      <div class="pswp__preloader">
-        <div class="pswp__preloader__icn">
-          <div class="pswp__preloader__cut">
-            <div class="pswp__preloader__donut"></div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
-      <div class="pswp__share-tooltip"></div>
-    </div>
-    <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
-    </button>
-    <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
-    </button>
-    <div class="pswp__caption">
-      <div class="pswp__caption__center"></div>
-    </div>
-    </div>
-    </div>
-</div>
-
-
-  
-  
-  
-
-
-
-
-
-
-  
-
-  <header class="header-section ">
     
-    <div class="intro-header no-img">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-            <div class="post-heading">
-              
-                <h1>My relationship with Go</h1>
-              
-              
-              
-              
-                <span class="post-meta">
-  
-  
-  <i class="fas fa-calendar"></i>&nbsp;Posted on December 26, 2017
-  
-  
-    &nbsp;|&nbsp;<i class="fas fa-clock"></i>&nbsp;6&nbsp;minutes
-  
-  
-    &nbsp;|&nbsp;<i class="fas fa-book"></i>&nbsp;1235&nbsp;words
-  
-  
-    
-      &nbsp;|&nbsp;<i class="fas fa-user"></i>&nbsp;Kaarthik
-    
-  
-  
-</span>
-
-
-              
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </header>
-
-
-    
-<div class="container" role="main">
-  <div class="row">
-    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-      <article role="main" class="blog-post">
-        
-
-<p>I have a love-hate relationship (more love and less hate :P) with any new programming language I pick up. This post describes my relationship with Go.</p>
-
+    <div class="post-content markdown-body">
+        <p>I have a love-hate relationship (more love and less hate :P) with any new programming language I pick up. This post describes my relationship with Go.</p>
 <h2 id="why-i-love-it">Why I love it</h2>
-
-<hr />
-
-<p>I was introduced to <a href="https://golang.org/" target="_blank">Go</a> by <a href="https://typemismatch.org/" target="_blank">Bjoern</a> as a part of my student job and I have been smitten by it ever since. Here are a few reason&rsquo;s why I love go, in no particular order :</p>
-
+<hr>
+<p>I was introduced to <!-- raw HTML omitted -->Go<!-- raw HTML omitted --> by <!-- raw HTML omitted -->Bjoern<!-- raw HTML omitted --> as a part of my student job and I have been smitten by it ever since. Here are a few reason&rsquo;s why I love go, in no particular order :</p>
 <h3 id="fast-compilation">Fast Compilation</h3>
-
-<p>Most popular languages are atleast a decade old and do not take advantage of the newer hardware. But, Go on the other hand is designed to run on modern computers and takes advantages of the faster hardware. This is partly the reason why Go compiles code like hot knife through butter. Another reason for the blazing fast build times is the way Go compiler performs <a href="https://en.wikipedia.org/wiki/Dependence_analysis" target="_blank">Dependency Analysis </a>. Below are a few points which I ripped from the <a href="https://golang.org/doc/faq" target="_blank">Go FAQs</a> page which summarizes why Go compiles code like there is no tomorrow:). If you are a Go developer and haven&rsquo;t gone through the FAQs, shame on you :P.</p>
-
+<p>Most popular languages are atleast a decade old and do not take advantage of the newer hardware. But, Go on the other hand is designed to run on modern computers and takes advantages of the faster hardware. This is partly the reason why Go compiles code like hot knife through butter. Another reason for the blazing fast build times is the way Go compiler performs <!-- raw HTML omitted -->Dependency Analysis <!-- raw HTML omitted -->. Below are a few points which I ripped from the <!-- raw HTML omitted -->Go FAQs<!-- raw HTML omitted --> page which summarizes why Go compiles code like there is no tomorrow:). If you are a Go developer and haven&rsquo;t gone through the FAQs, shame on you :P.</p>
 <blockquote>
 <p>Dependency management is a big part of software development today but the “header files” of languages in the C tradition are antithetical to clean dependency analysis—and fast compilation.</p>
-
+</blockquote>
+<blockquote>
 <p>Go provides a model for software construction that makes dependency analysis easy and avoids much of the overhead of C-style include files and libraries.</p>
-
+</blockquote>
+<blockquote>
 <p>Go&rsquo;s type system has no hierarchy, so no time is spent defining the relationships between types. Also, although Go has static types the language attempts to make types feel lighter weight than in typical OO languages.</p>
 </blockquote>
-
 <h3 id="static-compilation">Static Compilation</h3>
-
 <p>Go compiles everything statically and produces a single binary. The end user of the executable can &ldquo;simply&rdquo; run the executable without worrying about installing the runtime or additional libraries.</p>
-
 <h3 id="syntax">Syntax</h3>
-
 <p>Of all the languages I have used, Go has the cleanest and easiest syntax. Here are a few things I like about the Go syntax :</p>
-
 <p><strong>No semicolon</strong> - Semicolon is a thing of the past. With Go there is no need to end every line of code with a semicolon.</p>
-
 <p><strong>Short variable declarations</strong> - This one&rsquo;s my favourite. The &ldquo;:=&rdquo; operator is basically a short hand for variable declaration and assignment. Keep in mind that this shorthand can be used only inside functions.</p>
-
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-go" data-lang="go"><span style="color:#f92672">package</span> <span style="color:#a6e22e">main</span>
 
 <span style="color:#f92672">import</span> <span style="color:#e6db74">&#34;fmt&#34;</span>
@@ -335,10 +146,9 @@ if (!doNotTrack) {
 <span style="color:#66d9ef">func</span> <span style="color:#a6e22e">main</span>() {
 	<span style="color:#a6e22e">result</span> <span style="color:#f92672">:=</span> <span style="color:#e6db74">&#34;best&#34;</span>
 	<span style="color:#a6e22e">fmt</span>.<span style="color:#a6e22e">Printf</span>(<span style="color:#e6db74">&#34;Go is the %s&#34;</span>,<span style="color:#a6e22e">result</span>)
-}</code></pre></div>
-
+}
+</code></pre></div>
 <p><strong>Multiple Return Values</strong> - Go supports returning multiple values from a function. Most library functions return a result and an error. This is especially useful since Go has no built-in exceptions and exception handling mechanism. Instead Go uses the error type to indicate an abnormal state.</p>
-
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-go" data-lang="go"><span style="color:#f92672">package</span> <span style="color:#a6e22e">main</span>
 
 <span style="color:#f92672">import</span> <span style="color:#e6db74">&#34;fmt&#34;</span>                 
@@ -353,34 +163,22 @@ if (!doNotTrack) {
     <span style="color:#75715e">//Ignore one of the returned values
 </span><span style="color:#75715e"></span>    <span style="color:#a6e22e">_</span>, <span style="color:#a6e22e">c</span> <span style="color:#f92672">:=</span> <span style="color:#a6e22e">getWords</span>()
     <span style="color:#a6e22e">fmt</span>.<span style="color:#a6e22e">Println</span>(<span style="color:#a6e22e">c</span>)
-}</code></pre></div>
-
+}
+</code></pre></div>
 <h3 id="oop">OOP</h3>
-
-<p>Go is not completely object oriented. It has a type system, supports encapsulation and member functions but lacks inheritance. Go favours <a href="https://en.wikipedia.org/wiki/Composition_over_inheritance" target="_blank">&ldquo;Composition over Inheritance&rdquo;</a>. To understand more about OOP in Go please read this <a href="http://spf13.com/post/is-go-object-oriented/" target="_blank"> excellent blog post </a> by the great <a href="https://stevefrancia.com/" target="_blank">Steve Francia </a>. He goes into great detail about the advantages of the design decisions underlying Go&rsquo;s take on OOP.</p>
-
+<p>Go is not completely object oriented. It has a type system, supports encapsulation and member functions but lacks inheritance. Go favours <!-- raw HTML omitted -->&ldquo;Composition over Inheritance&rdquo;<!-- raw HTML omitted -->. To understand more about OOP in Go please read this <!-- raw HTML omitted --> excellent blog post <!-- raw HTML omitted --> by the great <!-- raw HTML omitted -->Steve Francia <!-- raw HTML omitted -->. He goes into great detail about the advantages of the design decisions underlying Go&rsquo;s take on OOP.</p>
 <h3 id="concurrency">Concurrency</h3>
-
-<p>STOP! Before you read any further I suggest that you first watch this video by Rob Pike - <a href="https://www.youtube.com/watch?v=oV9rvDllKEg" target="_blank"> Concurrency is not Parallelism</a>. Go was designed with concurrency in mind. Go supports concurrency with Goroutines and Channels. Goroutines are lightweight threads which are managed by the runtime. Multiple goroutines are multiplexed on a single OS thread. This has multiple adavantages such as lesser memory consumption (approximately 2kb on the stack), lesser setup and teardown costs and lesser context switching costs. And spinning a goroutine is as easy as prefixing go to your function call as shown below.</p>
-
+<p>STOP! Before you read any further I suggest that you first watch this video by Rob Pike - <!-- raw HTML omitted --> Concurrency is not Parallelism<!-- raw HTML omitted -->. Go was designed with concurrency in mind. Go supports concurrency with Goroutines and Channels. Goroutines are lightweight threads which are managed by the runtime. Multiple goroutines are multiplexed on a single OS thread. This has multiple adavantages such as lesser memory consumption (approximately 2kb on the stack), lesser setup and teardown costs and lesser context switching costs. And spinning a goroutine is as easy as prefixing go to your function call as shown below.</p>
 <p>go getWords()</p>
-
 <p>A channel is a data structure that is used to communicate between multiple goroutines. Traditionally threads in languages such as Java communicate with each other via Shared Memory which require you to acquire and release locks. But go follows a a different philosophy i.e. &ldquo;Don&rsquo;t communicate by sharing memory, share memory by communicating&rdquo;. Goroutines communicate with each other by passing channels rather than acquiring locks to read and write from shared memory.</p>
-
-<p>Heck! Go even has an built-in <a href="https://blog.golang.org/race-detector" target="_blank">race condition detector</a>.</p>
-
+<p>Heck! Go even has an built-in <!-- raw HTML omitted -->race condition detector<!-- raw HTML omitted -->.</p>
 <h3 id="defer">defer</h3>
-
-<p>I love defer(s) in Go. This <a href="https://blog.golang.org/defer-panic-and-recover" target="_blank">blog post</a> explains about defer.</p>
-
+<p>I love defer(s) in Go. This <!-- raw HTML omitted -->blog post<!-- raw HTML omitted --> explains about defer.</p>
 <blockquote>
 <p>A defer statement defers the execution of a function until the surrounding function returns.</p>
 </blockquote>
-
 <h3 id="go-tool">Go tool</h3>
-
 <p>The go tool is the single most useful tool for managing Go source code. It does everything from formatting your source code to fetching all the dependencies. Here is a list of few of its capabilities:</p>
-
 <ol>
 <li>build - compile packages and dependencies</li>
 <li>clean - remove object files</li>
@@ -392,65 +190,47 @@ if (!doNotTrack) {
 <li>run - compile and run Go program</li>
 <li>test - test packages</li>
 </ol>
-
 <h3 id="standard-library">Standard library</h3>
-
-<p>Go has a vast and exhaustive <a href="https://golang.org/pkg/" target="_blank">standard library</a> which includes everything from http server to logging.</p>
-
+<p>Go has a vast and exhaustive <!-- raw HTML omitted -->standard library<!-- raw HTML omitted --> which includes everything from http server to logging.</p>
 <h3 id="popularity">Popularity</h3>
-
-<p>Go is here to stay. Firstly it is backed by Google and many of their products are written in Go. Other big organizations such as Adobe, SoundCloud, RyanAir etc use Go. (More exhaustive list <a href="https://github.com/golang/go/wiki/GoUsers" target="_blank">here</a>). This reinforces my faith and love for Go.</p>
-
+<p>Go is here to stay. Firstly it is backed by Google and many of their products are written in Go. Other big organizations such as Adobe, SoundCloud, RyanAir etc use Go. (More exhaustive list <!-- raw HTML omitted -->here<!-- raw HTML omitted -->). This reinforces my faith and love for Go.</p>
 <h3 id="the-community">The Community</h3>
-
 <p>The Go community is filled with wonderful and helpful people who are always ready to guide you in the right direction.</p>
-
-<h3 id="this-blog">This Blog :)</h3>
-
-<p>This website was created using a super-fast static site generator called <a href="https://gohugo.io/" target="_blank">Hugo</a> which is completely written in Go.</p>
-
+<h3 id="this-blog-">This Blog :)</h3>
+<p>This website was created using a super-fast static site generator called <!-- raw HTML omitted -->Hugo<!-- raw HTML omitted --> which is completely written in Go.</p>
 <h2 id="why-i-hate-it">Why I hate it</h2>
-
-<hr />
-
+<hr>
 <p>Here are a few reasons why I hate Go:</p>
-
 <h3 id="syntax-1">Syntax</h3>
-
 <p>I just raved about how Go has a clean syntax, but here are a few rants :</p>
-
 <ol>
-<li><p>Anything that starts with a uppercase is exported i.e. it is accessible from outside a package. Names starting with a lowercase are not exported.</p></li>
-
-<li><p>No built-in enum support. As a developer with some background in C# I miss enums. (By using <a href="https://golang.org/ref/spec#Iota" target="_blank">iota</a> you can achieve enum-like functionality in Go)</p></li>
-
-<li><p>I don&rsquo;t quite like the function signatures in Go.</p></li>
+<li>
+<p>Anything that starts with a uppercase is exported i.e. it is accessible from outside a package. Names starting with a lowercase are not exported.</p>
+</li>
+<li>
+<p>No built-in enum support. As a developer with some background in C# I miss enums. (By using <!-- raw HTML omitted -->iota<!-- raw HTML omitted --> you can achieve enum-like functionality in Go)</p>
+</li>
+<li>
+<p>I don&rsquo;t quite like the function signatures in Go.</p>
+</li>
 </ol>
-
 <blockquote>
 <p>func funtionName(param1, param2..)(returnType1, returnType2..)</p>
 </blockquote>
-
 <h3 id="error-handling">Error Handling</h3>
-
 <p>I found the Error Handling in Go to be repetitive. If a function returns a result and an error, you are expected to check if the error is nil and then continue with you regular logic. And if the called function can return mutliple types of errors, then you would have to check for the type of the error in addition to checking if it is not nil.</p>
-
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-go" data-lang="go">         
 <span style="color:#a6e22e">info</span>, <span style="color:#a6e22e">err</span> <span style="color:#f92672">:=</span> <span style="color:#a6e22e">echoReq</span>.<span style="color:#a6e22e">GetSlotValue</span>(<span style="color:#a6e22e">screenMessage</span>)
 <span style="color:#66d9ef">if</span> <span style="color:#a6e22e">err</span> <span style="color:#f92672">!=</span> <span style="color:#66d9ef">nil</span> {
     <span style="color:#75715e">// Do error handling
 </span><span style="color:#75715e"></span>}<span style="color:#66d9ef">else</span>{
     <span style="color:#75715e">// regular logic
-</span><span style="color:#75715e"></span>}</code></pre></div>
-
+</span><span style="color:#75715e"></span>}
+</code></pre></div>
 <h3 id="no-overloading-and-optional-parameters">No Overloading and Optional Parameters</h3>
-
 <p>Yet again coming from C#, I miss method overloading and optional parameters which in my opinion are quite useful.</p>
-
 <h3 id="the-else-problem">The &ldquo;else&rdquo; problem</h3>
-
-<p>This is just me being picky and dumb, but coming from C# I have the habbit of writing the else condition in a new line rather than in the same line as the closing brace of the if condition. This results in a syntax error which makes me sad :(. <a href="https://play.golang.org/p/1NWNCItGU7s" target="_blank">Test it yourself.</a></p>
-
+<p>This is just me being picky and dumb, but coming from C# I have the habbit of writing the else condition in a new line rather than in the same line as the closing brace of the if condition. This results in a syntax error which makes me sad :(. <!-- raw HTML omitted -->Test it yourself.<!-- raw HTML omitted --></p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-go" data-lang="go"><span style="color:#f92672">package</span> <span style="color:#a6e22e">main</span>
 
 <span style="color:#f92672">import</span> (
@@ -466,250 +246,287 @@ if (!doNotTrack) {
 </span><span style="color:#75715e"></span>	<span style="color:#66d9ef">else</span>{
 	    <span style="color:#a6e22e">fmt</span>.<span style="color:#a6e22e">Println</span>(<span style="color:#e6db74">&#34;a is not one&#34;</span>)
 	}
-}</code></pre></div>
-
-
-        
-          <div class="blog-tags">
-            
-              <a href="https://kaarthik.dev/tags/go/">go</a>&nbsp;
-            
-              <a href="https://kaarthik.dev/tags/golang/">golang</a>&nbsp;
-            
-              <a href="https://kaarthik.dev/tags/technology/">technology</a>&nbsp;
-            
-          </div>
-        
-
-        
-            <hr/>
-            <section id="social-share">
-              <div class="list-inline footer-links">
-                
-
-<div class="share-box" aria-hidden="true">
-    <ul class="share">
-      
-      <li>
-        <a href="//twitter.com/share?url=https%3a%2f%2fkaarthik.dev%2fpost%2fwhyilovego%2f&amp;text=My%20relationship%20with%20Go&amp;via=karthikraobr" target="_blank" title="Share on Twitter">
-          <i class="fab fa-twitter"></i>
-        </a>
-      </li>
-  
-      
-      <li>
-        <a href="//www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fkaarthik.dev%2fpost%2fwhyilovego%2f" target="_blank" title="Share on Facebook">
-          <i class="fab fa-facebook"></i>
-        </a>
-      </li>
-  
-      
-      <li>
-        <a href="//reddit.com/submit?url=https%3a%2f%2fkaarthik.dev%2fpost%2fwhyilovego%2f&amp;title=My%20relationship%20with%20Go" target="_blank" title="Share on Reddit">
-          <i class="fab fa-reddit"></i>
-        </a>
-      </li>
-  
-      
-      <li>
-        <a href="//www.linkedin.com/shareArticle?url=https%3a%2f%2fkaarthik.dev%2fpost%2fwhyilovego%2f&amp;title=My%20relationship%20with%20Go" target="_blank" title="Share on LinkedIn">
-          <i class="fab fa-linkedin"></i>
-        </a>
-      </li>
-  
-      
-      <li>
-        <a href="//www.stumbleupon.com/submit?url=https%3a%2f%2fkaarthik.dev%2fpost%2fwhyilovego%2f&amp;title=My%20relationship%20with%20Go" target="_blank" title="Share on StumbleUpon">
-          <i class="fab fa-stumbleupon"></i>
-        </a>
-      </li>
-  
-      
-      <li>
-        <a href="//www.pinterest.com/pin/create/button/?url=https%3a%2f%2fkaarthik.dev%2fpost%2fwhyilovego%2f&amp;description=My%20relationship%20with%20Go" target="_blank" title="Share on Pinterest">
-          <i class="fab fa-pinterest"></i>
-        </a>
-      </li>
-    </ul>
-  </div>
-  
-
-              </div>
-            </section>
-        
-
-        
-      </article>
-
-      
-        <ul class="pager blog-pager">
-          
-            <li class="previous">
-              <a href="https://kaarthik.dev/post/procrastination/" data-toggle="tooltip" data-placement="top" title="The art of procrastination">&larr; Previous Post</a>
-            </li>
-          
-          
-            <li class="next">
-              <a href="https://kaarthik.dev/post/2018/" data-toggle="tooltip" data-placement="top" title="2018 - In the rearview mirror">Next Post &rarr;</a>
-            </li>
-          
-        </ul>
-      
-
-
-      
-        
-          
-          <div class="disqus-comments">
-            <div id="disqus_thread"></div>
-<script type="application/javascript">
-    var disqus_config = function () {
-    
-    
-    
-    };
-    (function() {
-        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
-            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
-            return;
-        }
-        var d = document, s = d.createElement('script'); s.async = true;
-        s.src = '//' + "https-karthikraobr-github-io" + '.disqus.com/embed.js';
-        s.setAttribute('data-timestamp', +new Date());
-        (d.head || d.body).appendChild(s);
-    })();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
-          </div>
-          
-        
-        
-      
+}
+</code></pre></div>
 
     </div>
-  </div>
+</article>
+
+
+
+
+            </div>
+            <aside class="col-12 col-md-3 float-left sidebar">
+    
+    <div class="sidebar-item sidebar-pages">
+        <h3>Pages</h3>
+        <ul>
+            
+            <li>
+                <a href="/">Home</a>
+            </li>
+            
+            <li>
+                <a href="/page/about">About</a>
+            </li>
+            
+            <li>
+                <a href="/page/resume">Résumé</a>
+            </li>
+            
+        </ul>
+    </div>
+    
+    <div class="sidebar-item sidebar-links">
+        <h3>Links</h3>
+        <ul>
+            
+            <li>
+                <a href="https://github.com/karthikraobr" target="_blank"><span>GitHub</span></a>
+            </li>
+            
+            <li>
+                <a href="https://twitter.com/karthikraobr" target="_blank"><span>Twitter</span></a>
+            </li>
+            
+            <li>
+                <a href="https://www.linkedin.com/in/karthikraobr/" target="_blank"><span>Linkedin</span></a>
+            </li>
+            
+            <li>
+                <a href="mailto:karthik.0703@gmail.com" target="_blank"><span>Email</span></a>
+            </li>
+            
+        </ul>
+    </div>
+    
+    <div class="sidebar-item sidebar-tags">
+        <h3>Tags</h3>
+        <div>
+            
+            <span>
+                <a href="/tags/2018/">2018</a>
+            </span>
+            
+            <span>
+                <a href="/tags/aboutme/">aboutme</a>
+            </span>
+            
+            <span>
+                <a href="/tags/firstpost/">firstpost</a>
+            </span>
+            
+            <span>
+                <a href="/tags/friends/">friends</a>
+            </span>
+            
+            <span>
+                <a href="/tags/go/">go</a>
+            </span>
+            
+            <span>
+                <a href="/tags/golang/">golang</a>
+            </span>
+            
+            <span>
+                <a href="/tags/injuries/">injuries</a>
+            </span>
+            
+            <span>
+                <a href="/tags/life/">life</a>
+            </span>
+            
+            <span>
+                <a href="/tags/procrastination/">procrastination</a>
+            </span>
+            
+            <span>
+                <a href="/tags/resume/">resume</a>
+            </span>
+            
+            <span>
+                <a href="/tags/running/">running</a>
+            </span>
+            
+            <span>
+                <a href="/tags/technology/">technology</a>
+            </span>
+            
+        </div>
+    </div>
+    <div class="sidebar-item sidebar-toc">
+        <h3>TOC</h3><nav id="TableOfContents">
+  <ul>
+    <li><a href="#why-i-love-it">Why I love it</a>
+      <ul>
+        <li><a href="#fast-compilation">Fast Compilation</a></li>
+        <li><a href="#static-compilation">Static Compilation</a></li>
+        <li><a href="#syntax">Syntax</a></li>
+        <li><a href="#oop">OOP</a></li>
+        <li><a href="#concurrency">Concurrency</a></li>
+        <li><a href="#defer">defer</a></li>
+        <li><a href="#go-tool">Go tool</a></li>
+        <li><a href="#standard-library">Standard library</a></li>
+        <li><a href="#popularity">Popularity</a></li>
+        <li><a href="#the-community">The Community</a></li>
+        <li><a href="#this-blog-">This Blog :)</a></li>
+      </ul>
+    </li>
+    <li><a href="#why-i-hate-it">Why I hate it</a>
+      <ul>
+        <li><a href="#syntax-1">Syntax</a></li>
+        <li><a href="#error-handling">Error Handling</a></li>
+        <li><a href="#no-overloading-and-optional-parameters">No Overloading and Optional Parameters</a></li>
+        <li><a href="#the-else-problem">The &ldquo;else&rdquo; problem</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav></div>
+</aside>
+        </div>
+        <div class="btn">
+    <div class="btn-menu" id="btn-menu">
+        <i class="iconfont icon-grid-sharp"></i>
+    </div>
+    <div class="btn-toggle-mode">
+        <i class="iconfont icon-contrast-sharp"></i>
+    </div>
+    <div class="btn-scroll-top">
+        <i class="iconfont icon-chevron-up-circle-sharp"></i>
+    </div>
 </div>
-
-      
-<footer>
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-        <ul class="list-inline text-center footer-links">
-          
-              <li>
-                <a href="mailto:karthik.0703@gmail.com" title="Email me">
-                  <span class="fa-stack fa-lg">
-                    <i class="fas fa-circle fa-stack-2x"></i>
-                    <i class="fas fa-envelope fa-stack-1x fa-inverse"></i>
-                  </span>
-                </a>
-              </li>
-              <li>
-                <a href="https://www.facebook.com/karthik.0703" title="Facebook">
-                  <span class="fa-stack fa-lg">
-                    <i class="fas fa-circle fa-stack-2x"></i>
-                    <i class="fab fa-facebook fa-stack-1x fa-inverse"></i>
-                  </span>
-                </a>
-              </li>
-              <li>
-                <a href="https://github.com/karthikraobr" title="GitHub">
-                  <span class="fa-stack fa-lg">
-                    <i class="fas fa-circle fa-stack-2x"></i>
-                    <i class="fab fa-github fa-stack-1x fa-inverse"></i>
-                  </span>
-                </a>
-              </li>
-              <li>
-                <a href="https://twitter.com/karthikraobr" title="Twitter">
-                  <span class="fa-stack fa-lg">
-                    <i class="fas fa-circle fa-stack-2x"></i>
-                    <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
-                  </span>
-                </a>
-              </li>
-              <li>
-                <a href="https://linkedin.com/in/karthikraobr" title="LinkedIn">
-                  <span class="fa-stack fa-lg">
-                    <i class="fas fa-circle fa-stack-2x"></i>
-                    <i class="fab fa-linkedin fa-stack-1x fa-inverse"></i>
-                  </span>
-                </a>
-              </li>
-              <li>
-                <a href="https://stackoverflow.com//users/1309509/geekboy" title="StackOverflow">
-                  <span class="fa-stack fa-lg">
-                    <i class="fas fa-circle fa-stack-2x"></i>
-                    <i class="fab fa-stack-overflow fa-stack-1x fa-inverse"></i>
-                  </span>
-                </a>
-              </li>
-              <li>
-                <a href="https://www.instagram.com/karthikraobr" title="Instagram">
-                  <span class="fa-stack fa-lg">
-                    <i class="fas fa-circle fa-stack-2x"></i>
-                    <i class="fab fa-instagram fa-stack-1x fa-inverse"></i>
-                  </span>
-                </a>
-              </li>
-          
-          <li>
-            <a href="" title="RSS">
-              <span class="fa-stack fa-lg">
-                <i class="fas fa-circle fa-stack-2x"></i>
-                <i class="fas fa-rss fa-stack-1x fa-inverse"></i>
-              </span>
-            </a>
-          </li>
-          
+<aside class="sidebar-mobile" style="display: none;">
+  <div class="sidebar-wrapper">
+    
+    <div class="sidebar-item sidebar-pages">
+        <h3>Pages</h3>
+        <ul>
+            
+            <li>
+                <a href="/">Home</a>
+            </li>
+            
+            <li>
+                <a href="/page/about">About</a>
+            </li>
+            
+            <li>
+                <a href="/page/resume">Résumé</a>
+            </li>
+            
         </ul>
-        <p class="credits copyright text-muted">
-          
-            
-              Kaarthik
-            
-          
-
-          &nbsp;&bull;&nbsp;&copy;
-          
-            2019
-          
-
-          
-            &nbsp;&bull;&nbsp;
-            <a href="https://kaarthik.dev">Gibberish</a>
-          
-        </p>
-        
-        <p class="credits theme-by text-muted">
-          <a href="https://gohugo.io">Hugo v0.55.6</a> powered &nbsp;&bull;&nbsp; Theme <a href="https://github.com/halogenica/beautifulhugo">Beautiful Hugo</a> adapted from <a href="https://deanattali.com/beautiful-jekyll/">Beautiful Jekyll</a>
-          
-        </p>
-      </div>
     </div>
+    
+    <div class="sidebar-item sidebar-links">
+        <h3>Links</h3>
+        <ul>
+            
+            <li>
+                <a href="https://github.com/karthikraobr" target="_blank"><span>GitHub</span></a>
+            </li>
+            
+            <li>
+                <a href="https://twitter.com/karthikraobr" target="_blank"><span>Twitter</span></a>
+            </li>
+            
+            <li>
+                <a href="https://www.linkedin.com/in/karthikraobr/" target="_blank"><span>Linkedin</span></a>
+            </li>
+            
+            <li>
+                <a href="mailto:karthik.0703@gmail.com" target="_blank"><span>Email</span></a>
+            </li>
+            
+        </ul>
+    </div>
+    
+    <div class="sidebar-item sidebar-tags">
+        <h3>Tags</h3>
+        <div>
+            
+            <span>
+                <a href="/tags/2018/">2018</a>
+            </span>
+            
+            <span>
+                <a href="/tags/aboutme/">aboutme</a>
+            </span>
+            
+            <span>
+                <a href="/tags/firstpost/">firstpost</a>
+            </span>
+            
+            <span>
+                <a href="/tags/friends/">friends</a>
+            </span>
+            
+            <span>
+                <a href="/tags/go/">go</a>
+            </span>
+            
+            <span>
+                <a href="/tags/golang/">golang</a>
+            </span>
+            
+            <span>
+                <a href="/tags/injuries/">injuries</a>
+            </span>
+            
+            <span>
+                <a href="/tags/life/">life</a>
+            </span>
+            
+            <span>
+                <a href="/tags/procrastination/">procrastination</a>
+            </span>
+            
+            <span>
+                <a href="/tags/resume/">resume</a>
+            </span>
+            
+            <span>
+                <a href="/tags/running/">running</a>
+            </span>
+            
+            <span>
+                <a href="/tags/technology/">technology</a>
+            </span>
+            
+        </div>
+    </div>
+    
+    
+    
+    
   </div>
-</footer><script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.js" integrity="sha384-K3vbOmF2BtaVai+Qk37uypf7VrgBubhQreNQe9aGsz9lB63dIFiQVlJbr92dw2Lx" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/contrib/auto-render.min.js" integrity="sha384-kmZOZB5ObwgQnS/DuDg6TScgOiWWBiVt0plIRkZCmE6rDZGrEOQeHM5PcHi+nyqe" crossorigin="anonymous"></script>
-<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</aside>
+    </main>
 
-<script src="https://kaarthik.dev/js/main.js"></script>
-<script src="https://kaarthik.dev/js/highlight.min.js"></script>
-<script> hljs.initHighlightingOnLoad(); </script>
-<script> $(document).ready(function() {$("pre.chroma").css("padding","0");}); </script><script> renderMathInElement(document.body); </script><script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe.min.js" integrity="sha384-QELNnmcmU8IR9ZAykt67vGr9/rZJdHbiWi64V88fCPaOohUlHCqUD/unNN0BXSqy" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe-ui-default.min.js" integrity="sha384-m67o7SkQ1ALzKZIFh4CiTA8tmadaujiTa9Vu+nqPSwDOqHrDmxLezTdFln8077+q" crossorigin="anonymous"></script><script src="https://kaarthik.dev/js/load-photoswipe.js"></script>
-
-
-
-
-
-
-
-
+    <footer>
+    <div class="container-lg clearfix">
+        <div class="col-12 footer">
+            
+            <span>&copy; 2020
+                <a href="https://kaarthik.dev"></a>
+                
+                | Powered by <a href="https://github.com/amzrk2/hugo-theme-fuji/"
+                   target="_blank">Fuji-v2</a> &amp; <a href="https://gohugo.io/"
+                                                    target="_blank">Hugo</a> 
+            </span>
+        </div>
+    </div>
+</footer>
 
     
-  </body>
-</html>
+<script defer src="https://cdn.jsdelivr.net/combine/npm/medium-zoom@1.0.6,npm/lazysizes@5.2.2"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/prismjs@1.21.0/components/prism-core.min.js"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/prismjs@1.21.0/plugins/autoloader/prism-autoloader.min.js"></script>
 
+
+
+<script defer src="/assets/js/fuji.min.js"></script>
+
+
+</body>
+
+</html>

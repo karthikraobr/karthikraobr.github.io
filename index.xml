@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Gibberish</title>
@@ -6,32 +6,55 @@
     <description>Recent content on Gibberish</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <managingEditor>karthik.0703@gmail.com (Kaarthik)</managingEditor>
-    <webMaster>karthik.0703@gmail.com (Kaarthik)</webMaster>
     <copyright>© Copyright 2018</copyright>
-    <lastBuildDate>Sun, 14 Jul 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 29 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://kaarthik.dev/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Résumé</title>
+      <link>https://kaarthik.dev/page/resume/</link>
+      <pubDate>Tue, 29 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://kaarthik.dev/page/resume/</guid>
+      <description> It appears that you don&#39;t have a PDF plugin. Click here to download the PDF file.
+   .pdf-container { height: 0; width: 100%; padding-bottom: 129.41%; /* 11/8.5 = 1.2941 */ overflow: hidden; position: relative; } .pdf-container object { width: 100%; height: 100%; position: absolute; top: 0; left: 0; } </description>
+    </item>
     
-	<atom:link href="https://kaarthik.dev/index.xml" rel="self" type="application/rss+xml" />
-    
+    <item>
+      <title>Running</title>
+      <link>https://kaarthik.dev/post/running/</link>
+      <pubDate>Sun, 14 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://kaarthik.dev/post/running/</guid>
+      <description>I didn&amp;rsquo;t enjoy running until recently. I would occasionally run a 10k and train for a week or two prior to that and that would be it. Once I moved to Berlin, one of the first things I did apart from hunting for houses was to sign up for the Berlin Half-marathon with a friend of mine. That was a life changing experience. Allow me to explain.
+Stress buster When I started, I always thought that running was just about having a strong pair of legs.</description>
+    </item>
     
     <item>
       <title>2018 - In the rearview mirror</title>
       <link>https://kaarthik.dev/post/2018/</link>
       <pubDate>Sat, 29 Dec 2018 12:22:16 +0100</pubDate>
-      <author>karthik.0703@gmail.com (Kaarthik)</author>
+      
       <guid>https://kaarthik.dev/post/2018/</guid>
       <description>2018 was quite an eventful year in my life. This year went by even before I could realize it. Here are a few highlights of my life during 2018
-Masters Finally, I graduated from the University of Paderborn with a Masters degree in Computer Science 😌. Usually, it takes a normal human being ~2.5 years to complete it, but being the lazy sloth that I am, it took me 3.</description>
+Masters Finally, I graduated from the University of Paderborn with a Masters degree in Computer Science 😌. Usually, it takes a normal human being ~2.5 years to complete it, but being the lazy sloth that I am, it took me 3. According to the German law, I can now prefix my name with an M.</description>
+    </item>
+    
+    <item>
+      <title>About me</title>
+      <link>https://kaarthik.dev/page/about/</link>
+      <pubDate>Sat, 29 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://kaarthik.dev/page/about/</guid>
+      <description>Hey there! I am Kaarthik. I was born in the garden city of India - Bangalore and have lived a major part of my life there. Currently I live in Paderborn, a small city in Germany where I am pursuing my masters in computer science.I also work part-time for Diebold Nixdorf in their Research &amp;amp; Innovation department. Currently I live in Berlin and work at travel audience as a Go developer.</description>
     </item>
     
     <item>
       <title>My relationship with Go</title>
       <link>https://kaarthik.dev/post/whyilovego/</link>
       <pubDate>Tue, 26 Dec 2017 00:00:00 +0000</pubDate>
-      <author>karthik.0703@gmail.com (Kaarthik)</author>
+      
       <guid>https://kaarthik.dev/post/whyilovego/</guid>
       <description>I have a love-hate relationship (more love and less hate :P) with any new programming language I pick up. This post describes my relationship with Go.
-Why I love it I was introduced to Go by Bjoern as a part of my student job and I have been smitten by it ever since. Here are a few reason&amp;rsquo;s why I love go, in no particular order :
+Why I love it  I was introduced to Goby Bjoernas a part of my student job and I have been smitten by it ever since. Here are a few reason&amp;rsquo;s why I love go, in no particular order :
 Fast Compilation Most popular languages are atleast a decade old and do not take advantage of the newer hardware.</description>
     </item>
     
@@ -39,7 +62,7 @@ Fast Compilation Most popular languages are atleast a decade old and do not take
       <title>The art of procrastination</title>
       <link>https://kaarthik.dev/post/procrastination/</link>
       <pubDate>Mon, 21 Aug 2017 00:00:00 +0000</pubDate>
-      <author>karthik.0703@gmail.com (Kaarthik)</author>
+      
       <guid>https://kaarthik.dev/post/procrastination/</guid>
       <description>I have been thinking of updating my blog for more than a month now and you all guessed it right, I procrastinated. What better way to update it, than write a post about procrastination. When someone asks me &amp;ldquo;What am I good at&amp;rdquo;? my immediate answer would be procrastination. I am a full-time procrastinator! I don&amp;rsquo;t understand why I do it and how I do it, but at the end of the day I realize that I wasted it procrastinating.</description>
     </item>
@@ -48,37 +71,9 @@ Fast Compilation Most popular languages are atleast a decade old and do not take
       <title>Hello World</title>
       <link>https://kaarthik.dev/post/helloworld/</link>
       <pubDate>Thu, 15 Jun 2017 00:00:00 +0000</pubDate>
-      <author>karthik.0703@gmail.com (Kaarthik)</author>
+      
       <guid>https://kaarthik.dev/post/helloworld/</guid>
-      <description>So! los gehts (german for here we go). Hello World! This is usually the first program developers&amp;rsquo; write to get the taste of a new programming language. I am new to blogging and hence this post! Considering how long I have been working with computers, I am pretty late to the blogging scene, but hey better late than never. I still haven&amp;rsquo;t decided what I will be posting here. Stay Tuned, Stay Hungry, Stay Foolish!</description>
-    </item>
-    
-    <item>
-      <title>Running</title>
-      <link>https://kaarthik.dev/post/running/</link>
-      <pubDate>Sun, 14 Jul 2019 00:00:00 +0000</pubDate>
-      <author>karthik.0703@gmail.com (Kaarthik)</author>
-      <guid>https://kaarthik.dev/post/running/</guid>
-      <description>I just clocked 875 kilometers of running today and what better way to celebrate than a blogpost right ? 😝 I didn&amp;rsquo;t enjoy running until recently. I would occasionally take part in a 10k and train for a week or two prior to that and that would be it. Once I moved to Berlin, one of the first things I did apart from hunting for houses was to sign up for the Berlin Half-marathon with a friend of mine.</description>
-    </item>
-    
-    <item>
-      <title>About me</title>
-      <link>https://kaarthik.dev/page/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <author>karthik.0703@gmail.com (Kaarthik)</author>
-      <guid>https://kaarthik.dev/page/about/</guid>
-      <description>Hey there! I am Kaarthik. I was born in the garden city of India - Bangalore and have lived a major part of my life there. Currently I live in Paderborn, a small city in Germany where I am pursuing my masters in computer science.I also work part-time for Diebold Nixdorf in their Research &amp;amp; Innovation department. Currently I live in Berlin and work at travel audience as a Go developer.</description>
-    </item>
-    
-    <item>
-      <title>Résumé</title>
-      <link>https://kaarthik.dev/page/resume/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <author>karthik.0703@gmail.com (Kaarthik)</author>
-      <guid>https://kaarthik.dev/page/resume/</guid>
-      <description>It appears that you don&#39;t have a PDF plugin. Click here to download the PDF file.
-   .pdf-container { height: 0; width: 100%; padding-bottom: 129.41%; /* 11/8.5 = 1.2941 */ overflow: hidden; position: relative; } .pdf-container object { width: 100%; height: 100%; position: absolute; top: 0; left: 0; } </description>
+      <description>So! los gehts (german for here we go). Hello World! This is usually the first program developers&#39; write to get the taste of a new programming language. I am new to blogging and hence this post! Considering how long I have been working with computers, I am pretty late to the blogging scene, but hey better late than never. I still haven&amp;rsquo;t decided what I will be posting here. Stay Tuned, Stay Hungry, Stay Foolish!</description>
     </item>
     
   </channel>

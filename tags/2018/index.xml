@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>2018 on Gibberish</title>
@@ -6,22 +6,16 @@
     <description>Recent content in 2018 on Gibberish</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <managingEditor>karthik.0703@gmail.com (Kaarthik)</managingEditor>
-    <webMaster>karthik.0703@gmail.com (Kaarthik)</webMaster>
     <copyright>© Copyright 2018</copyright>
-    <lastBuildDate>Sat, 29 Dec 2018 12:22:16 +0100</lastBuildDate>
-    
-	<atom:link href="https://kaarthik.dev/tags/2018/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sat, 29 Dec 2018 12:22:16 +0100</lastBuildDate><atom:link href="https://kaarthik.dev/tags/2018/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>2018 - In the rearview mirror</title>
       <link>https://kaarthik.dev/post/2018/</link>
       <pubDate>Sat, 29 Dec 2018 12:22:16 +0100</pubDate>
-      <author>karthik.0703@gmail.com (Kaarthik)</author>
+      
       <guid>https://kaarthik.dev/post/2018/</guid>
       <description>2018 was quite an eventful year in my life. This year went by even before I could realize it. Here are a few highlights of my life during 2018
-Masters Finally, I graduated from the University of Paderborn with a Masters degree in Computer Science 😌. Usually, it takes a normal human being ~2.5 years to complete it, but being the lazy sloth that I am, it took me 3.</description>
+Masters Finally, I graduated from the University of Paderborn with a Masters degree in Computer Science 😌. Usually, it takes a normal human being ~2.5 years to complete it, but being the lazy sloth that I am, it took me 3. According to the German law, I can now prefix my name with an M.</description>
     </item>
     
   </channel>

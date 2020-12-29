@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Gibberish</title>
@@ -6,19 +6,13 @@
     <description>Recent content in Categories on Gibberish</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <managingEditor>karthik.0703@gmail.com (Kaarthik)</managingEditor>
-    <webMaster>karthik.0703@gmail.com (Kaarthik)</webMaster>
     <copyright>© Copyright 2018</copyright>
-    <lastBuildDate>Tue, 26 Dec 2017 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://kaarthik.dev/categories/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Tue, 26 Dec 2017 00:00:00 +0000</lastBuildDate><atom:link href="https://kaarthik.dev/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>technology</title>
       <link>https://kaarthik.dev/categories/technology/</link>
       <pubDate>Tue, 26 Dec 2017 00:00:00 +0000</pubDate>
-      <author>karthik.0703@gmail.com (Kaarthik)</author>
+      
       <guid>https://kaarthik.dev/categories/technology/</guid>
       <description></description>
     </item>
@@ -27,7 +21,7 @@
       <title>blog</title>
       <link>https://kaarthik.dev/categories/blog/</link>
       <pubDate>Mon, 21 Aug 2017 00:00:00 +0000</pubDate>
-      <author>karthik.0703@gmail.com (Kaarthik)</author>
+      
       <guid>https://kaarthik.dev/categories/blog/</guid>
       <description></description>
     </item>

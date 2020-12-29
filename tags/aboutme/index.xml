@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>aboutme on Gibberish</title>
+    <link>https://kaarthik.dev/tags/aboutme/</link>
+    <description>Recent content in aboutme on Gibberish</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© Copyright 2018</copyright>
+    <lastBuildDate>Sat, 29 Dec 2018 00:00:00 +0000</lastBuildDate><atom:link href="https://kaarthik.dev/tags/aboutme/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About me</title>
+      <link>https://kaarthik.dev/page/about/</link>
+      <pubDate>Sat, 29 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://kaarthik.dev/page/about/</guid>
+      <description>Hey there! I am Kaarthik. I was born in the garden city of India - Bangalore and have lived a major part of my life there. Currently I live in Paderborn, a small city in Germany where I am pursuing my masters in computer science.I also work part-time for Diebold Nixdorf in their Research &amp;amp; Innovation department. Currently I live in Berlin and work at travel audience as a Go developer.</description>
+    </item>
+    
+  </channel>
+</rss>
